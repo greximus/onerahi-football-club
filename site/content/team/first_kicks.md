@@ -3,7 +3,7 @@ title: First kicks
 date: 2017-01-04T15:04:10.000Z
 description: >-
   Football for 4 - 6 year olds 
-image: /img/first_kicks.png
+image: /img/first-kicks.png
 training: 4:15pm at Onerahi FC
 order: 1
 ---
