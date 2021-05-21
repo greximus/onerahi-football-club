@@ -1,13 +1,25 @@
 {{ define "main" }}
 
-  <div class="mw6 center ph3 pv4">
-    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-    <div class="cms mw6">
+  <div class="mw7 center ph3 pv4">
+    <h1 class="f2 lh-title primary mb3">{{.Title}}</h1>
+    <div class="cms mw7">
       <p>{{ .Description }}</p>
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ .Content }}
+      
+      {{ if .Params.image }}
+      <div class="w-100-ns">
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-100-ns"/>
+      </div>
+      {{ end }}
 
-      <h5>Training times: {{ .Params.training }}</h5>
+      <p><strong>Coaches:</strong> {{ .Params.coaches }}</p>
+      <p><strong>Training times:</strong> {{ .Params.training }}</p>
+      
+      <p>
+        <strong>Contact:</strong> 
+        <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+      </p>
+
+      {{ .Content }}
     </div>
   </div>
 {{ end }}
