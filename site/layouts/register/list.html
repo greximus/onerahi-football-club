@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" "/img/clubroom.png" "title" "Register" "subtitle" .Params.subtitle) }}
+
+<div class="bg-off-white pv4">
+  <div class="ph3 mw7 center">
+    <p class="f4 b lh-title mb2">{{ .Params.heading }}</p>
+    <p class="mb4 mw6">{{.Params.text}}</p>
+
+    {{ .Content }}
+
+    <div class="tc">
+      <a href="https://mycomet-oceania.analyticom.de/en_NZ/login" class="btn raise">Register</a>
+    </div>
+  </div>
+  <div class="ph3 mw7 center pa5">
+    <h5>
+      Any problems registering please email: <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
+    </h5>
+  </div>
+
+</div>
+</div>
+
+
+{{end}}
