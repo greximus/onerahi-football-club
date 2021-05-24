@@ -5,16 +5,6 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "product" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Product" # Used in the UI, ie.: "New Product"
-    folder: "site/content/product" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
   - name: "team"
     label: "Team"
     folder: "site/content/team"
@@ -22,10 +12,10 @@ collections: # A list of collections the CMS should be able to edit
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Image", name: "image", widget: "image", required: true}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Training", name: "training", widget: "text"}
-      - {label: "Order", name: "order", widget: "text"}
+      - {label: "Order", name: "order", widget: "string"}
       - {label: "Email", name: "email", widget: "text"}
       - {label: "Coaches", name: "coaches", widget: "text"}
   - name: "pages"
@@ -43,9 +33,6 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Text", name: "text", widget: "text"}]}
           - {label: "Intro", name: intro, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Products", name: products, widget: list, fields: [
-              {label: "Image", name: "image", widget: "image"},
               {label: "Text", name: "text", widget: "text"}]}
           - {label: "Values", name: "values", widget: "object", fields: [
               {label: "Heading", name: "heading", widget: string},

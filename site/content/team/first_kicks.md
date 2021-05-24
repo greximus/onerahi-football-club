@@ -2,7 +2,7 @@
 title: First kicks
 date: 2017-01-04T15:04:10.000Z
 description: "Football for 4 - 6 year olds "
-image: /img/first-kicks.png
+image: /img/firstkicks.jpg
 training: Mondays 4:15pm at Onerahi FC
 order: 1
 email: ruthbartons@gmail.com
