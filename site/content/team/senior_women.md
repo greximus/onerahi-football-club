@@ -2,10 +2,12 @@
 title: Senior Womens
 date: 2017-01-04T15:04:10.000Z
 description: >-
-  Football for 6 - 8 year olds
-image: /img/senior-women.png
-training: 4:15pm at Onerahi FC
+  Our senior womens team
+image: /img/womens.jpg
+training: 6pm Wednesdays at Onerahi FC
 order: 3
+coaches: Matt Mathias
+email: onerahifootballclub@outlook.co.nz
 ---
 
-Fun football is fun
+Our senior womens team are regular championship winners including a rare treble in recent history
