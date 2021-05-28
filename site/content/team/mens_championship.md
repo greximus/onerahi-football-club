@@ -5,7 +5,7 @@ description: >-
   Onerahi mens championship
 image: /img/team.jpg
 training: 6pm Tuesday at Mad Hatters, 6pm Thursday at OFC
-order: 4
+order: 9
 email: onerahifootballclub@outlook.co.nz
 ---
 

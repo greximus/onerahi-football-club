@@ -5,7 +5,7 @@ description: >-
   Onerahi mens second division
 image: /img/second-div.jpg
 training: 4:15pm at Onerahi FC
-order: 4
+order: 10
 ---
 
 Fun football is fun

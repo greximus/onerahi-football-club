@@ -5,7 +5,7 @@ description: >-
   Onerahi mens third division
 image: /img/third-div.jpg
 training: 6pm Wednesdays at Onerahi FC
-order: 4
+order: 11
 coaches: Dave Fisher
 email: onerahifootballclub@outlook.co.nz
 ---
