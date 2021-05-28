@@ -5,7 +5,7 @@ description: >-
   Our senior womens team
 image: /img/womens.jpg
 training: 6pm Wednesdays at Onerahi FC
-order: 3
+order: 6
 coaches: Matt Mathias
 email: onerahifootballclub@outlook.co.nz
 ---
