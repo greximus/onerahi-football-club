@@ -7,4 +7,3 @@ order: 5
 email: " onerahifootballclub@outlook.co.nz"
 coaches: Joel Murray & Arna-lise Harris (Manager)
 ---
-Our 11th Grade gold team

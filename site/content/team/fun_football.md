@@ -6,7 +6,7 @@ description: >-
 image: /img/funfootball.jpg
 training: Mondays 4:15pm at Onerahi FC
 order: 2
-email: ruthbartons@gmail.com
+email: "onerahifootballclub@outlook.co.nz"
 coaches: Brad Hall & Nik Kennedy
 ---
 
@@ -18,7 +18,7 @@ Note trainings and game days do not run during the school holidays. The season s
 
 _Time_: Saturday mornings, 9:15am until 9:45am. 
 
-_Location_: The first 3 Saturdays of each month, games will be held at Onerahi FC. The final Saturday of each month, games will likely be held at Tikipunga FC where teams will play other clubs, called a football festival.
+_Location_: The first 3 Saturdays of each month, games will be held at Onerahi FC. The final Saturday of each month, games are held at Kensington park where teams will play other clubs, called a football festival.
 
 _Teams_: 3 or 4 players per team, teams are picked on the day
 

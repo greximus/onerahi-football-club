@@ -1,6 +1,5 @@
 ---
 title: 10th Grade Gold
-subtitle: Our 10th Grade Gold Team
 image: img/teamphoto.jpg
 training: At Onerahi FC
 order: 4

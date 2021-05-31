@@ -6,4 +6,3 @@ order: 6
 email: "onerahifootballclub@outlook.co.nz"
 coaches: Christian Reynolds & James Buckland (Manager)
 ---
-Our 15th Grade gold team

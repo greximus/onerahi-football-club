@@ -5,7 +5,7 @@ description: "Football for 4 - 6 year olds "
 image: /img/firstkicks.jpg
 training: Mondays 4:15pm at Onerahi FC
 order: 1
-email: ruthbartons@gmail.com
+email: "onerahifootballclub@outlook.co.nz"
 coaches: Guy Belsham and Luke Tattersall
 ---
 
@@ -17,7 +17,7 @@ starts on May 8th and runs until September 25th.
 
 _Time_: Saturday mornings, 8:30am until 9:00am. 
 
-_Location_: The first 3 Saturdays of each month, games will be held at Onerahi FC. The final Saturday of each month, games will likely be held at Tikipunga FC where teams will play other clubs, called a football festival.
+_Location_: The first 3 Saturdays of each month, games will be held at Onerahi FC. The final Saturday of each month, games are held at Tikipunga FC where teams will play other clubs, called a football festival.
 
 _Teams_: 3 or 4 players per team, teams are picked on the day
 

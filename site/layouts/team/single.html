@@ -3,7 +3,9 @@
   <div class="mw7 center ph3 pv4">
     <h1 class="f2 lh-title primary mb3">{{.Title}}</h1>
     <div class="cms mw7">
+      {{ if .Description }}
       <p>{{ .Description }}</p>
+      {{ end }}
       
       {{ if .Params.image }}
       <div class="w-100-ns">
@@ -24,7 +26,9 @@
         <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
       </p>
 
+      {{ if .Content }}
       {{ .Content }}
+      {{ end }}
     </div>
   </div>
 {{ end }}

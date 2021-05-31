@@ -6,4 +6,3 @@ order: 6
 email: "onerahifootballclub@outlook.co.nz"
 coaches: Dan Owens & Rich Horwood (Manager)
 ---
-Our 15th Grade blue team
