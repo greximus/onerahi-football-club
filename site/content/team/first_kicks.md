@@ -1,5 +1,5 @@
 ---
-title: First kicks
+title: First Kicks
 date: 2017-01-04T15:04:10.000Z
 description: "Football for 4 - 6 year olds "
 image: /img/firstkicks.jpg

@@ -6,4 +6,3 @@ order: 4
 email: "onerahifootballclub@outlook.co.nz"
 coaches: Steve Jennings & Amy Donelly (Manager)
 ---
-Our 10th Grade gold team

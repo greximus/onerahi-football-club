@@ -1,5 +1,5 @@
 ---
-title: Fun football
+title: Fun Football
 date: 2017-01-04T15:04:10.000Z
 description: >-
   Football for 6 - 8 year olds

@@ -7,5 +7,3 @@ order: 4
 email: "onerahifootballclub@outlook.co.nz"
 coaches: "Manager - Janice Garton"
 ---
-
-Our 10th Grade blue team

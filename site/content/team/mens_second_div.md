@@ -1,5 +1,5 @@
 ---
-title: Mens second division
+title: Mens Second Division
 date: 2017-01-04T15:04:10.000Z
 image: /img/second-div.jpg
 training: 6pm Tuesday at Mad Hatters, 6pm Thursday at OFC
