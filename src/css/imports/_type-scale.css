@@ -46,4 +46,5 @@
   .f4-l { font-size: 1.25rem;; }
   .f5-l { font-size: var(--spacing-medium); }
   .f6-l { font-size: .875rem; }
+  .f7-l { font-size: 6rem; }
 }
