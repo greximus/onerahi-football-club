@@ -1,5 +1,5 @@
 ---
-title: ONERAHI FOOTBALL CLUB
+title: ONERAHI FC
 subtitle: The best club in town
 image: /img/main-jumbotron.jpg
 blurb:
