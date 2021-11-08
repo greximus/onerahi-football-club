@@ -152,6 +152,7 @@
 .mb5  {  margin-bottom: var(--spacing-extra-large); }
 .mb6 {  margin-bottom: var(--spacing-extra-extra-large); }
 .mb7 { margin-bottom: var(--spacing-extra-extra-extra-large); }
+.mb8  {  margin-top: 25%; }
 
 .mt0  {  margin-top: var(--spacing-none); }
 .mt1 {  margin-top: var(--spacing-extra-small); }
