@@ -3,7 +3,7 @@
 }
 
 /* Used in the navbar */
-.divider-grey {
+<!--.divider-grey {
   box-shadow: inset 0 -4px 0 var(--grey-1);
   /* Link hover states */
   & a {
@@ -12,4 +12,4 @@
   & ul a:hover, & ul a:focus {
     box-shadow: inset 0 -4px 0 var(--primary);
   }
-}
+}-->
