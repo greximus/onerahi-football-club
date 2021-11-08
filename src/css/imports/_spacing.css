@@ -134,6 +134,8 @@
 .ml5  {  margin-left: var(--spacing-extra-large); }
 .ml6 {  margin-left: var(--spacing-extra-extra-large); }
 .ml7 { margin-left: var(--spacing-extra-extra-extra-large); }
+.ml8 { margin-left: 50px; }
+
 
 .mr0  {  margin-right: var(--spacing-none); }
 .mr1 {  margin-right: var(--spacing-extra-small); }
@@ -143,6 +145,7 @@
 .mr5  {  margin-right: var(--spacing-extra-large); }
 .mr6 {  margin-right: var(--spacing-extra-extra-large); }
 .mr7 { margin-right: var(--spacing-extra-extra-extra-large); }
+.mr8 { margin-right: 50px; }
 
 .mb0  {  margin-bottom: var(--spacing-none); }
 .mb1 {  margin-bottom: var(--spacing-extra-small); }
