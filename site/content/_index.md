@@ -1,6 +1,6 @@
 ---
 title: ONERAHI FC
-subtitle: The best club in town
+subtitle: THE BEST CLUB IN TOWN
 image: /img/main-jumbotron.jpg
 blurb:
   heading: Welcome
