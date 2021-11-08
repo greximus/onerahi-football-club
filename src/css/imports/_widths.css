@@ -19,6 +19,8 @@
 .w-90 {  width:  90%; }
 .w-100 { width: 100%; }
 
+.wrapper {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
+
 .w-third { width: calc(100% / 3); }
 .w-two-thirds { width: calc(100% / 1.5); }
 .w-auto { width: auto; }
