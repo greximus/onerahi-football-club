@@ -1,8 +1,5 @@
 /* Text colors */
 
-.welcome {background-color: white;
-
-}
 
 .primary {
   color: var(--primary);
@@ -57,7 +54,7 @@
 }
 
 .bg-grey-1 {
-  background-color: var(--grey-1);
+  background-color: var(--off-white);
 }
 
 .bg-grey-2 {
