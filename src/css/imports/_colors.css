@@ -1,5 +1,9 @@
 /* Text colors */
 
+.welcome {background-color: white;
+
+}
+
 .primary {
   color: var(--primary);
 }
