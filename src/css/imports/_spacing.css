@@ -919,4 +919,6 @@
   .mhn1-l { margin-left: -var(--spacing-extra-small); margin-right: -var(--spacing-extra-small); }
   .mhn2-l { margin-left: -var(--spacing-small); margin-right: -var(--spacing-small); }
   .mhn3-l { margin-left: -var(--spacing-medium); margin-right: -var(--spacing-medium); }
+  
+  .marginauto {margin: 0 auto;}
 }
