@@ -3,7 +3,7 @@ title: ONERAHI FC
 subtitle: THE BEST CLUB IN TOWN
 image: /img/main-jumbotron.jpg
 blurb:
-  heading: Welcome
+  heading: WELCOME TO ONERAHI
   text: Onerahi football club has a proud history of great teams and great players
 blurbs:
   - text: We are as diverse as we are strong on and off the field with outstanding
