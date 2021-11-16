@@ -34,8 +34,9 @@
 }
 
 .blue-square {
- color:--primary;
+ color:#000bea;
 position: absolute;
+left: 0px;
 bottom: 0px;
 width:500px;
 height:300px;
