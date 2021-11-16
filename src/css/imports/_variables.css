@@ -33,45 +33,29 @@
 
 }
 
-.blue-square {
-background-color:#004a98;
-position: absolute;
-left: 0px;
-bottom: 0px;
-width:500px;
-height:300px;
-}
-
-.gold-square {
-background-color:#ffd100;
-position: absolute;
-right: 0px;
-top: 0px;
-width:500px;
-height:300px;
-}
-
 .about-box {
-max-width: 90%;
+width: 100%;
 margin: 0 auto;
 position: relative;
 display: flex;
 justify-content: center;
+text-align: center;
 }
 
 .about-box h1 {
- font-size: 50px;
+ font-size: 90px;
  font-weight: 900;
 }
 
 .about-box h2 {
  font-size: 15px;
  font-weight: 900;
+ margin-top: 5px;
 }
 
 .score-box {
 position: relative;
-width: 25%;
+width: auto;
 height: 300px;
 margin: 10px 20px;
 }
@@ -83,16 +67,22 @@ height: 300px;
 margin: 10px 20px;
 }
 
+.club-logo {
+ width: auto;
+ height: 150px;
+}
+
+.club-logo img {
+ width: auto;
+ height: 150px;
+}
+
 .club-info {
 position: relative;
 width: 40%;
 text-align: right;
 }
 
-.club-logo {
- width: 50px;
- height: auto;
-}
 
 h1,h2,h3,h4,h5 {
 	--font-family:  'Poppins', Oswald, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
