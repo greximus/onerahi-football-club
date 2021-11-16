@@ -34,13 +34,22 @@
 }
 
 .blue-square {
-background-color:#000bea;
+background-color:#004a98;
 position: absolute;
 left: 0px;
 bottom: 0px;
 width:500px;
 height:300px;
-}	
+}
+
+.blue-square2 {
+background-color:#ffd100;
+position: absolute;
+right: 0px;
+top: 0px;
+width:500px;
+height:300px;
+}
 
 
 h1,h2,h3,h4,h5 {
