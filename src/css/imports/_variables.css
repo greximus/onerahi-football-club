@@ -75,13 +75,13 @@ padding: 10px 10px;
 
 .club-logo {
  width: auto;
- width: 500px;
+ width: 150px;
  position: relative;
 }
 
 .club-logo img {
- width: 50px;
- height: auto;
+ height: 75px;
+ margin: 5px;
 }
 
 .club-info {
