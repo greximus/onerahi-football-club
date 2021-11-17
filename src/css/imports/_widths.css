@@ -20,7 +20,14 @@
 .w-100 { width: 100%; }
 
 .wrapper {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
-.about-wrapper {width: 25%; position: relative; top: -15%; margin-left: 5%; background-color: #fffdfc; padding: 15px; height: 100%;}
+
+.about-wrapper {width: 90%;
+position: relative;
+top: -15%;
+margin: 0 auto;
+background-color: #fffdfc;
+padding: 15px;
+height: auto;}
 
 .w-third { width: calc(100% / 3); }
 .w-two-thirds { width: calc(100% / 1.5); }
