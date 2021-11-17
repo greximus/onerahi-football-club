@@ -69,15 +69,8 @@ width: 100%;
 .score-box {
 position: relative;
 height: 100%;
-width: 50%;
+width: 100%;
 padding: 10px 10px;
-}
-
-.middle-box {
-position: relative;
-width: 10%;
-height: 300px;
-margin: 10px 20px;
 }
 
 .club-logo {
