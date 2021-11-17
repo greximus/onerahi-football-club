@@ -98,6 +98,11 @@ position: relative;
  font-size: 14px;
 }
 
+.score-box {
+ width: 100%;
+ display: flex;
+}
+
 
 
 h1,h2,h3,h4,h5 {
