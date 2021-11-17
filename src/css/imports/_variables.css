@@ -34,7 +34,7 @@
 }
 
 .about-box {
-width: 20%;
+width: auto;
 height: 70%;
 position: relative;
 text-align: center;
@@ -75,10 +75,10 @@ padding: 10px 10px;
 
 .club-logo {
  width: auto;
- width: 150px;
  position: relative;
  justify-content: left;
  display: flex;
+ margin: auto;
 }
 
 .club-logo img {
