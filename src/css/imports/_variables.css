@@ -85,10 +85,19 @@ padding: 10px 10px;
 }
 
 .club-info {
+width: auto;
+max-width: 100%;
 position: relative;
-width: 100%;
-text-align: left;
+justify-content: left;
+display: flex;
 }
+
+.club-logo > p {
+ margin: auto;
+ text-align: center;
+ font-size: 14px
+}
+
 
 
 h1,h2,h3,h4,h5 {
