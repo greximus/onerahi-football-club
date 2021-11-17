@@ -35,9 +35,10 @@
 
 .about-box {
 width: 20%;
-height: 80%;
+height: 70%;
 position: relative;
 text-align: center;
+display: inline-flex;
 }
 
 .about-wrapper hr {
@@ -49,21 +50,23 @@ width: 100%;
 }
 
 .about-box h1 {
- font-size: 90px;
+ font-size: 80px;
  font-weight: 900;
+ position: relative;
 }
 
 .about-box h2 {
  font-size: 15px;
  font-weight: 900;
  margin-top: 5px;
+ position: relative;
 }
 
 .score-box {
 position: relative;
 height: 100%;
-width: 40%;
-padding: 10px 20px;
+width: 50%;
+padding: 10px 10px;
 }
 
 .middle-box {
@@ -76,6 +79,7 @@ margin: 10px 20px;
 .club-logo {
  width: auto;
  height: 100px;
+ position: relative;
 }
 
 .club-logo img {
