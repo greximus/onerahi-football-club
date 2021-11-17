@@ -77,6 +77,8 @@ padding: 10px 10px;
  width: auto;
  width: 150px;
  position: relative;
+ justify-content: left;
+ display: flex;
 }
 
 .club-logo img {
@@ -88,14 +90,12 @@ padding: 10px 10px;
 width: auto;
 max-width: 100%;
 position: relative;
-justify-content: left;
-display: flex;
 }
 
 .club-logo > p {
  margin: auto;
  text-align: center;
- font-size: 14px
+ font-size: 14px;
 }
 
 
