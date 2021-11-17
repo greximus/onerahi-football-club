@@ -39,6 +39,10 @@ height: 70%;
 position: relative;
 text-align: center;
 display: inline-flex;
+border-color: lightgray;
+border-width: 1px;
+border-style: solid;
+border-radius: 10px;
 }
 
 .about-wrapper hr {
@@ -78,13 +82,13 @@ margin: 10px 20px;
 
 .club-logo {
  width: auto;
- height: 100px;
+ width: 500px;
  position: relative;
 }
 
 .club-logo img {
- width: auto;
- height: 100px;
+ width: 50px;
+ height: auto;
 }
 
 .club-info {
