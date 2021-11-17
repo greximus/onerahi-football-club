@@ -43,6 +43,12 @@ justify-content: center;
 text-align: center;
 }
 
+.about-box hr {
+ height:3px; 
+ border-width:0; 
+ background-color: lightgray;
+}
+
 .about-box h1 {
  font-size: 90px;
  font-weight: 900;
