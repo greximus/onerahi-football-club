@@ -64,6 +64,8 @@ width: 100%;
  font-weight: 900;
  margin-top: 5px;
  position: relative;
+ width: 90%;
+ text-align: left;
 }
 
 .game-box {
