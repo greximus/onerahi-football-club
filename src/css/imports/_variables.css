@@ -11,7 +11,7 @@
 	--black: rgba(43, 37, 35, 1);
 
 	/* Typography */
-	--font-family:  'Montserrat', Roboto, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--font-family:  'Montserrat', sans-serif;
 	--line-height: 1.5;
 
 	--font-size: 18px;
@@ -128,11 +128,16 @@ position: relative;
  display: flex;
 }
 
+.score-wrapper {
+ width: 100%;
+ display: flex;
+}
+
 .wrapper {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
 
 
 
 
 h1,h2,h3,h4,h5 {
-	--font-family:  'Montserrat', Oswald, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--font-family:  'Montserrat', sans-serif;
 }
