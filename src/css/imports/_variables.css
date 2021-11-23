@@ -11,7 +11,7 @@
 	--black: rgba(43, 37, 35, 1);
 
 	/* Typography */
-	--font-family:  'Poppins', Roboto, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--font-family:  'Montserrat', Roboto, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 	--line-height: 1.5;
 
 	--font-size: 18px;
@@ -34,7 +34,7 @@
 }
 
 .about-box {
-width: auto;
+width: 20%;
 height: 70%;
 position: relative;
 text-align: center;
@@ -45,6 +45,13 @@ border-style: solid;
 border-radius: 10px;
 margin-top: 10px;
 margin-right: 25px;
+}
+
+.about-wrapper {width: 100%;
+position: relative;
+background-color: #fffdfc;
+padding: 20px;
+height: auto;
 }
 
 .about-wrapper hr {
@@ -121,8 +128,11 @@ position: relative;
  display: flex;
 }
 
+.wrapper {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
+
+
 
 
 h1,h2,h3,h4,h5 {
-	--font-family:  'Poppins', Oswald, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--font-family:  'Montserrat', Oswald, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 }
