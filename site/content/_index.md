@@ -1,7 +1,7 @@
 ---
-title: ONERAHI FC
-subtitle: THE BEST CLUB IN TOWN
-image: /img/main-jumbotron.jpg
+title: " "
+subtitle: " "
+image: img/banner.jpg
 blurb:
   heading: WELCOME TO
   text: Onerahi football club has a proud history of great teams and great players
