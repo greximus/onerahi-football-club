@@ -3,7 +3,7 @@ title: " "
 subtitle: " "
 image: img/banner.jpg
 blurb:
-  heading: WELCOME TO
+  heading: WELCOME TO ONERAHI
   text: Onerahi football club has a proud history of great teams and great players
 blurbs:
   - text: We are as diverse as we are strong on and off the field with outstanding
