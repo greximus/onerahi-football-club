@@ -172,9 +172,7 @@ position: relative;
 
 
 @media screen and (max-width: 1200px;) {
-	.score-wrapper {
-	 display: none;
-	}
+	.score-wrapper { display: none; }
 
 	#nav.menu {display: none;}
 	.hamburger {display: block;}
