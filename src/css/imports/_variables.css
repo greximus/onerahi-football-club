@@ -59,7 +59,8 @@ height: 2px;
 border-width: 0;
 background-color: #d3d3d3;
 position: relative;
-width: 100%;
+width: 30%;
+margin-right: 80%;
 }
 
 .about-box hr {
@@ -119,7 +120,7 @@ position: relative;
 
 .club-logo > p {
  margin: auto;
- text-align: center;
+ text-align: left;
  font-size: 14px;
 }
 
@@ -131,11 +132,16 @@ position: relative;
 .score-wrapper {
  width: 100%;
  display: flex;
+ justify-content: space-between;
 }
 
 .wrapper {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
 
-
+@media screen and (max-width: 760px) {
+	.score-wrapper {
+	 display: none;
+	}
+}
 
 
 h1,h2,h3,h4,h5 {
