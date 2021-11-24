@@ -145,9 +145,9 @@ position: relative;
 
 #nav {padding: 10px 0px 10px 0px; display: flex;  align-items: center; width: 100%; flex-wrap: wrap; }
 #nav.menu {position: relative;display: flex;flex-direction: row;flex-wrap: wrap;align-items: flex-end;justify-content: center;}
-#nav li a {position: relative; text-align: left; display: block; box-sizing: border-box;}
-#nav a {color: white; font-weight: 300; letter-spacing: 2px; text-decoration: none; padding: 20px 20px; display: inline-block; text-align: center; display: flex;}
-#nav img {box-sizing: border-box; height: 100px; position: absolute; margin: auto; left: 0; right: 0; text-align: center;}
+#nav > li a {position: relative; text-align: left; display: block; box-sizing: border-box;}
+#nav > a {color: white; font-weight: 300; letter-spacing: 2px; text-decoration: none; padding: 20px 20px; display: inline-block; text-align: center; display: flex;}
+.wrapper.flex-row > img {box-sizing: border-box; height: 100px; position: absolute; margin: auto; left: 0; right: 0; text-align: center;}
 
 
 
