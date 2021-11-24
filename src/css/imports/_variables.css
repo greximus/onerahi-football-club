@@ -152,7 +152,7 @@ header .wrapper.flex-row > a > img {width: 60px; position: absolute; top: 5px;}
 #nav.menu {position: relative;display: flex;flex-direction: row;flex-wrap: wrap;align-items: flex-end;justify-content: center;}
 #nav li a {position: relative; text-align: left; display: block; box-sizing: border-box;}
 #nav a {color: white; font-weight: 300; letter-spacing: 2px; text-decoration: none; padding: 20px 20px; display: inline-block; text-align: center; display: flex;}
-
+#nav ul {display: flex; list-style: none;}
 .wrapper.flex-row > img {box-sizing: border-box; height: 100px; position: absolute; margin: auto; left: 0; right: 0; text-align: center;}
 
 
