@@ -171,12 +171,9 @@ position: relative;
 /* MEDIA */
 
 
-@media screen and (max-width: 1200px;) {
-	.score-wrapper { display: none; }
+@media screen and (max-width: 1200px;) {.score-wrapper { display: none; }}
 
-	#nav.menu {display: none;}
-	.hamburger {display: block;}
-}
+@media screen and (max-width: 1000px;)	{#nav.menu {display: none;}.hamburger {display: block;}}
 
 
 h1,h2,h3,h4,h5 {
