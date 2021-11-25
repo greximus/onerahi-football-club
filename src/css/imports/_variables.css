@@ -130,8 +130,7 @@ position: relative;
 
 .wrapper {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
 
-.home-banner {position: relative; width: 100%; height: 100vh;}
-.home-banner > figure > img {width: 100%;}
+.mobile-banner {display: none; position: relative; width: 100%; height: 50vh;}
 
 /*Header*/
 header {position: absolute; width: 100%; display: block; z-index: 999;}
@@ -140,7 +139,7 @@ header .wrapper.flex-row > a > img {width: 60px; position: absolute; top: 5px;}
 header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; position: absolute; top: 5px;}
 
 .hamburger {display: none;width: 50px; height: 30px; position: fixed; cursor: pointer; right: 20px; top: 20px; transition: 0.3s; z-index: 999;}
-.hamburger span {height: 2px; background: #e44c07; width: 100%; position: absolute; opacity: 1; transition: 0.3s;}
+.hamburger span {height: 2px; background: #fff; width: 100%; position: absolute; opacity: 1; transition: 0.3s;}
 .hamburger span:nth-child(1) {top: 0;}
 .hamburger span:nth-child(2) {top: 15px;}
 .hamburger span:nth-child(3) {bottom: 0;}
@@ -155,11 +154,6 @@ header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; positio
 #nav a {color: white; font-weight: 800; letter-spacing: 2px; text-decoration: none; padding: 20px 20px; display: inline-block; text-align: center; display: flex;}
 #nav ul {display: flex; list-style: none;}
 .wrapper.flex-row > img {box-sizing: border-box; height: 100px; position: absolute; margin: auto; left: 0; right: 0; text-align: center;}
-
-
-
-
-
 
 
 
@@ -182,4 +176,10 @@ h1,h2,h3,h4,h5 {
 @media screen and (max-width: 1280px) {
   #nav.menu {display: none;}
   .hamburger {display: block;}
+}
+
+
+@media screen and (max-width: 900px) {
+  .desktop-banner {display: none;}
+  .mobile-banner {display: block;}
 }

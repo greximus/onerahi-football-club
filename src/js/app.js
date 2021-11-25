@@ -8,3 +8,20 @@ if (window.netlifyIdentity) {
     }
   });
 }
+
+
+
+function hamburgerMenu() {
+  var x = document.getElementById("Hamburger");
+  if (x.className === "hamburger") {
+    x.className += " active";
+  } else {
+    x.className = "hamburger";
+  }
+  var x = document.getElementById("nav");
+  if (x.className === "menu") {
+    x.className += " active";
+  } else {
+    x.className = "menu";
+  }
+}
