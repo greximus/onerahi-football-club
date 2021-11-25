@@ -106,6 +106,6 @@ h1,h2,h3,h4,h5 {
 
 
 @media screen and (max-width: 900px) {
-  .desktop-banner {display: none;}
+  .pv5 pv6-l ph3 vh-100 bg-center cover {display: none;}
   .mobile-banner {display: block;}
 }
