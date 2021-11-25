@@ -137,6 +137,7 @@ position: relative;
 header {position: absolute; width: 100%; display: block; z-index: 999;}
 header .wrapper.flex-row {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
 header .wrapper.flex-row > a > img {width: 60px; position: absolute; top: 5px;}
+header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; position: absolute; top: 5px;}
 
 .hamburger {display: none;width: 50px; height: 30px; position: fixed; cursor: pointer; right: 20px; top: 20px; transition: 0.3s; z-index: 999;}
 .hamburger span {height: 2px; background: #e44c07; width: 100%; position: absolute; opacity: 1; transition: 0.3s;}
@@ -149,9 +150,9 @@ header .wrapper.flex-row > a > img {width: 60px; position: absolute; top: 5px;}
 .hamburger.active span:nth-child(3) {bottom: 0; transform: rotate(225deg); top: 15px;}
 
 #nav {padding: 10px 0px 10px 0px; display: flex;  align-items: center; width: 100%; flex-wrap: wrap; }
-#nav.menu {position: relative;display: flex;flex-direction: row;flex-wrap: wrap;align-items: flex-end;justify-content: center;}
+#nav.menu {position: relative; display: flex; flex-direction: row; flex-wrap: wrap; width: 50%; justify-content: center; margin: 0 auto;}
 #nav li a {position: relative; text-align: left; display: block; box-sizing: border-box;}
-#nav a {color: white; font-weight: 300; letter-spacing: 2px; text-decoration: none; padding: 20px 20px; display: inline-block; text-align: center; display: flex;}
+#nav a {color: white; font-weight: 800; letter-spacing: 2px; text-decoration: none; padding: 20px 20px; display: inline-block; text-align: center; display: flex;}
 #nav ul {display: flex; list-style: none;}
 .wrapper.flex-row > img {box-sizing: border-box; height: 100px; position: absolute; margin: auto; left: 0; right: 0; text-align: center;}
 
@@ -174,8 +175,11 @@ header .wrapper.flex-row > a > img {width: 60px; position: absolute; top: 5px;}
   to{ bottom:0; opacity:1;}
 }
 
-
-
 h1,h2,h3,h4,h5 {
 	--font-family:  'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 1280px) {
+  #nav.menu {display: none;}
+  .hamburger {display: block;}
 }
