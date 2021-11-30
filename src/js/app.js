@@ -40,11 +40,23 @@ $('.overlay').on('click', function() {
 
 var $hamburger = $(".hamburger");
 $hamburger.on("click", function(e) {
-  $hamburger.toggleClass("is-active"), $(".overlay").fadeToggle(200);
+  $hamburger.toggleClass("active"), $(".overlay").fadeToggle(200);
   // Do something else, like open / close menu
 });
 var $hamburger = $(".hamburger");
 $hamburger.on("click", function(e) {
-  $hamburger.removeclass("is-active");
+  $hamburger.removeclass("active");
 
 });
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(window).scrollTop() > $(window).height()){
+            $(".hamburger").css({"background-color":"#fff"});
+        }
+        else{
+            $(".hamburger").css({"background-color":"#ffd100"});
+        }
+
+    })
+})
