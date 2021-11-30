@@ -98,3 +98,13 @@ header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; positio
 h1,h2,h3,h4,h5 {
 	--font-family:  'Montserrat', sans-serif;
 }
+
+@media screen and (max-width: 1280px) {
+  #nav.menu {display: none;}
+  .hamburger {display: block;}
+}
+
+
+@media screen and (max-width: 900px) {
+  .score-wrapper {display: none;}
+}

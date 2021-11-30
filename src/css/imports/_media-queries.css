@@ -1,10 +1,5 @@
-@media screen and (max-width: 1280px) {
-  #nav.menu {display: none;}
-  .hamburger {display: block;}
-}
+@custom-media --breakpoint-not-small screen and (min-width: 40em);
 
+@custom-media --breakpoint-medium screen and (min-width: 50em);
 
-@media screen and (max-width: 900px) {
-  #banner {display: none;}
-  .mobile-banner {display: block;}
-}
+@custom-media --breakpoint-large screen and (min-width: 60em);
