@@ -1,5 +1,10 @@
-@custom-media --breakpoint-not-small screen and (min-width: 40em);
+@media screen and (max-width: 1280px) {
+  #nav.menu {display: none;}
+  .hamburger {display: block;}
+}
 
-@custom-media --breakpoint-medium screen and (min-width: 50em);
 
-@custom-media --breakpoint-large screen and (min-width: 60em);
+@media screen and (max-width: 900px) {
+  .pv5 pv6-l ph3 vh-100 bg-center cover {display: none;}
+  .mobile-banner {display: block;}
+}
