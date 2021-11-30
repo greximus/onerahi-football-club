@@ -5,6 +5,6 @@
 
 
 @media screen and (max-width: 900px) {
-  .pv5 pv6-l ph3 vh-100 bg-center cover {display: none;}
+  #banner {display: none;}
   .mobile-banner {display: block;}
 }
