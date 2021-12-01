@@ -30,19 +30,10 @@
 	<meta property="og:title" content="Onerahi Football Club">
 	<meta property="og:url" content="/">
 	<meta property="og:image" content="/img/onerahi-logo.svg">
+  
+  <script src="https://github.com/greximus/onerahi-football-club/blob/master/src/js/jquery-3.1.1.min.js"></script>
 
   {{ if .IsHome }}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {{ end }}
-
-  <script src="https://github.com/greximus/onerahi-football-club/blob/master/src/js/jquery-3.1.1.min.js"></script>
-
-  <script>
-    $(document).ready(function(){
-        $(".hamburger").click(function(){
-          $(this).toggleClass("active");
-          $(".mobile-nav").toggleClass("active");
-        });
-      });
-  </script>
 </head>
