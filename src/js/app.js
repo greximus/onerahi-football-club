@@ -10,13 +10,14 @@ if (window.netlifyIdentity) {
 }
 
 
-
+function hamburgerMenu(){
 $(document).ready(function(){
     $(".hamburger").click(function(){
       $(this).toggleClass("active");
       $(".mobile-nav").toggleClass("active");
     });
   });
+}
 
 
 
