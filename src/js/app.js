@@ -10,44 +10,14 @@ if (window.netlifyIdentity) {
 }
 
 
-//
-// function hamburgerMenu() {
-//   var x = document.getElementById("Hamburger");
-//   if (x.className === "hamburger") {
-//     x.className += " active";
-//   } else {
-//     x.className = "hamburger";
-//   }
-//   var x = document.getElementById("nav");
-//   if (x.className === "menu") {
-//     x.className += " active";
-//   } else {
-//     x.className = "menu";
-//   }
-// }
-$(document).ready(function() {
-
-  $(".hamburger").click(function() {
-    $(".overlay").fadeToggle(200);
+$(document).ready(function(){
+    $(“.hamburger”).click(function(){
+      $(this).toggleClass(“active”);
+      $(‘.mobile-nav’).toggleClass(“active”);
+    });
   });
-});
 
-$('.overlay').on('click', function() {
-  $(".overlay").fadeToggle(200);
 
-  open = false;
-});
-
-var $hamburger = $(".hamburger");
-$hamburger.on("click", function(e) {
-  $hamburger.toggleClass("active"), $(".overlay").fadeToggle(200);
-  // Do something else, like open / close menu
-});
-var $hamburger = $(".hamburger");
-$hamburger.on("click", function(e) {
-  $hamburger.removeclass("active");
-
-});
 
 $(document).ready(function(){
     $(window).scroll(function(){
