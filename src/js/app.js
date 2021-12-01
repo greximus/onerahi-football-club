@@ -10,10 +10,11 @@ if (window.netlifyIdentity) {
 }
 
 
+
 $(document).ready(function(){
-    $(“.hamburger”).click(function(){
-      $(this).toggleClass(“active”);
-      $(‘.mobile-nav’).toggleClass(“active”);
+    $(".hamburger").click(function(){
+      $(this).toggleClass("active");
+      $(".mobile-nav").toggleClass("active");
     });
   });
 
@@ -22,10 +23,10 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(window).scroll(function(){
         if($(window).scrollTop() > $(window).height()){
-            $(".hamburger").css({"background-color":"#fff"});
+            $(".hamburger span").css({"background-color":"#fff"});
         }
         else{
-            $(".hamburger").css({"background-color":"#ffd100"});
+            $(".hamburger span").css({"background-color":"#ffd100"});
         }
 
     })
