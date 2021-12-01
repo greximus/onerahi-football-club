@@ -11,6 +11,8 @@
 		</div>
 	</div>
 
+	<div class="hamburger"><span></span><span></span><span></span></div>
+	
 	<div class="mobile-nav">
 		<ul>
 			<li><a href="/">HOME</a></li>
@@ -19,10 +21,6 @@
 			<li><a href="/contact">CONTACT</a></li>
 		</ul>
 	</div>
-
-	<div class="hamburger"><span></span><span></span><span></span></div>
-</header>
-
 
 
 
@@ -35,18 +33,4 @@
 	  });
 </script>
 
-
-
-<script>
-	$(document).ready(function(){
-	    $(window).scroll(function(){
-	        if($(window).scrollTop() > $(window).height()){
-	            $(".hamburger span").css({"background-color":"#fff"});
-	        }
-	        else{
-	            $(".hamburger span").css({"background-color":"#ffd100"});
-	        }
-
-	    })
-	})
-</script>
+</header>
