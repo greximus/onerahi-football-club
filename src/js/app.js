@@ -8,26 +8,3 @@ if (window.netlifyIdentity) {
     }
   });
 }
-
-
-
-$(document).ready(function(){
-    $(".hamburger").click(function(){
-      $(this).toggleClass("active");
-      $(".mobile-nav").toggleClass("active");
-    });
-  });
-
-
-
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if($(window).scrollTop() > $(window).height()){
-            $(".hamburger span").css({"background-color":"#fff"});
-        }
-        else{
-            $(".hamburger span").css({"background-color":"#ffd100"});
-        }
-
-    })
-})
