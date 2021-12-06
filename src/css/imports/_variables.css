@@ -39,7 +39,7 @@
 .about-box h2 { font-size: 15px; font-weight: 900; margin-top: 5px; position: relative; width: 90%; text-align: left;}
 .about-box p {text-align: right;font-size: 15px;margin: auto;}
 
-.about-wrapper {width: 100%;position: relative;background-color: #fffdfc;padding: 20px;height: auto;}
+.about-wrapper {width: 90%;position: relative;background-color: #fffdfc;padding: 20px;height: auto;margin: 0 auto;}
 .about-wrapper hr {height: 2px;border-width: 0;background-color: #d3d3d3;position: relative;width: 30%;margin-right: 80%;}
 
 .game-box {position: relative;height: 100%;width: 100%;padding: 10px 10px;}
@@ -144,6 +144,7 @@ h1,h2,h3,h4,h5 {
 
 
 @media screen and (max-width: 900px) {
+	.about-wrapper {width: 100%;}
   .score-wrapper {display: none;}
 	#banner {height: 40vh;}
 }
