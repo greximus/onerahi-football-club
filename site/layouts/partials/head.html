@@ -18,6 +18,7 @@
 
   <script src="/src/js/jquery-3.1.1.min.js"></script>
   <script src="/src/js/swiper.min.js"></script>
+  <script src="/app.js"></script>
 
 	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
@@ -38,4 +39,14 @@
   {{ if .IsHome }}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {{ end }}
+
+  <script>
+  	$(document).ready(function(){
+  			$(".hamburger").click(function(){
+  				$(this).toggleClass("active");
+  				$(".mobile-nav").toggleClass("active");
+  			});
+  		});
+  </script>
+  
 </head>
