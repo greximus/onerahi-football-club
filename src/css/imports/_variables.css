@@ -64,7 +64,7 @@ header .wrapper.flex-row {max-width: 90%; position: relative; top: 0px; margin: 
 header .wrapper.flex-row > a > img {width: 60px; position: absolute; top: 5px;}
 header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; position: absolute; top: 5px;}
 
-.hamburger {display: none;width: 50px; height: 30px; position: fixed; cursor: pointer; right: 20px; top: 20px; transition: 0.3s; z-index: 999;}
+.hamburger {display: none;width: 50px; height: 30px; position: fixed; cursor: pointer; right: 20px; top: 20px; transition: 0.3s; z-index: 9999;}
 .hamburger span {height: 2px; background: #fff; width: 100%; position: absolute; opacity: 1; transition: 0.3s;}
 .hamburger span:nth-child(1) {top: 0;}
 .hamburger span:nth-child(2) {top: 15px;}
@@ -81,7 +81,7 @@ header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; positio
 #nav ul {display: flex; list-style: none;}
 .wrapper.flex-row > img {box-sizing: border-box; height: 100px; position: absolute; margin: auto; left: 0; right: 0; text-align: center;}
 
-.mobile-nav { position: fixed; top: 0; right: 0; left: 0; bottom: 0; text-align: center; background: #000; opacity: 0; z-index: -1; visibility: hidden; transition: all .375s;}
+.mobile-nav { position: fixed; top: 0; right: 0; left: 0; bottom: 0; text-align: center; background: #004a98; opacity: 0; z-index: -1; visibility: hidden; transition: all .375s;}
 
 .mobile-nav .menu li.active {background: none; box-shadow: none; font-weight: bold;}
 .mobile-nav .menu ul li:hover {background: none; box-shadow: none;}
@@ -105,7 +105,7 @@ header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; positio
 
 
 .mobile-nav ul,.mobile-nav li { list-style: none; padding: 0;}
-.mobile-nav a { display: block; padding: 12px 0; color: #5A3B5D; font-size: 1.4em; text-decoration: none; font-weight: bold;}
+.mobile-nav a { display: block; padding: 12px 0; color: #004a98; font-size: 1.4em; text-decoration: none; font-weight: bold; outline:none;}
 
 
 @keyframes spin {
