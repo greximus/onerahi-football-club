@@ -1,8 +1,13 @@
 ---
-title: 9th Grade Gold
+title: 9th Grade
 image: img/teamphoto.jpg
-training: At Onerahi FC
+training: |-
+  Wednesday - 4.30pm
+  at Onerahi FC
 order: 3
-email: "onerahifootballclub@outlook.co.nz"
-coaches: Carl Mansell & Ben and Nerissa Haselden (Managers)
+email: onerahifootballclub@outlook.co.nz
+coaches: |-
+  Ross Borman (Coach)
+  Karl Browning (Manager)
 ---
+Information about out 9th Grade team for 2022
