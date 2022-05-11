@@ -1,12 +1,12 @@
 ---
-title: First Kicks
+order: 1
+coaches: Guy Belsham and Luke Tattersall
 date: 2017-01-04T15:04:10.000Z
+title: First Kicks
 description: "Football for 4 - 6 year olds "
 image: /img/firstkicks.jpg
-training: Mondays 4:15pm at Onerahi FC
-order: 1
-email: "onerahifootballclub@outlook.co.nz"
-coaches: Guy Belsham and Luke Tattersall
+training: Mondays 3:30pm at Onerahi FC
+email: onerahifootballclub@outlook.co.nz
 ---
 
 First kicks is a great way to get started playing football. Note trainings and game days do not run during the school holidays. The season
