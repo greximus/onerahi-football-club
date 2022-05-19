@@ -78,7 +78,7 @@ header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; positio
 #nav.menu {position: relative; display: flex; flex-direction: row; flex-wrap: wrap; width: 50%; justify-content: center; margin: 0 auto; border-bottom: #fff;border-style: solid; border-bottom-width: 1px;}
 #nav li a {position: relative; text-align: left; display: block; box-sizing: border-box; outline:none;}
 #nav a {color: white; font-weight: 800; letter-spacing: 2px; text-decoration: none; padding: 20px 20px; display: inline-block; text-align: center; display: flex;}
-#nav ul {display: flex; list-style: none; outline:none;}}
+#nav ul {display: flex; list-style: none; outline:none;}
 .wrapper.flex-row > img {box-sizing: border-box; height: 100px; position: absolute; margin: auto; left: 0; right: 0; text-align: center;}
 
 .mobile-nav { position: fixed; top: 0; right: 0; left: 0; bottom: 0; text-align: center; background: #004a98; opacity: 0; z-index: -1; visibility: hidden; transition: all .375s;}
