@@ -1,9 +1,10 @@
 ---
-title: "Register"
-subtitle: "How to sign up to play for Onerahi FC" 
-heading: "If you are yet to register for the season, please do so by visiting Comet"
-account: "ASB 12-3092-0107633-00"
-email: "onerahifootballclub@outlook.co.nz"
+title: Register
+heading: If you are yet to register for the season, please do so by visiting Comet
+subtitle: How to sign up to play for Onerahi FC
+account: ASB 12-3092-0107633-00
+imageUrl: img/img_3165.jpg
+email: onerahifootballclub@outlook.co.nz
 ---
 
 If you are registering multiple players from the same family then choose "Additional Player" after the first player purchase is in the cart.
