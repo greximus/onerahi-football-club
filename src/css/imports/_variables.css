@@ -33,7 +33,7 @@
 
 }
 
-.about-box {width: 20%;height: 70%;position: relative;text-align: center;display: inline-flex;border-color: lightgray;border-width: 1px;border-style: solid;border-radius: 10px;margin-top: 10px;margin-right: 25px;}
+.about-box {width: 30%; position: relative;text-align: center;display: inline-flex;border: 1px solid lightgray; border-radius: 10px;}
 .about-box hr {height: 1px;border-width: 0;background-color: #d3d3d3;position: relative;width: 100%;}
 .about-box h1 { font-size: 80px; font-weight: 900; position: relative;}
 .about-box h2 { font-size: 15px; font-weight: 900; margin-top: 5px; position: relative; width: 90%; text-align: left;}
@@ -42,9 +42,11 @@
 .about-wrapper {width: 90%;position: relative;background-color: #fffdfc;padding: 20px;height: auto;margin: 0 auto;}
 .about-wrapper hr {height: 2px;border-width: 0;background-color: #d3d3d3;position: relative;width: 30%;margin-right: 80%;}
 
-.game-box {position: relative;height: 100%;width: 100%;padding: 10px 10px;}
+.game-box {position: relative; width: 100%; padding: 25px;}
 
-.club-logo { width: auto; position: relative; justify-content: left; display: flex; margin: auto;}
+.club-logo { width: 100%; position: relative; justify-content: space-between; display: flex; margin: auto;}
+.club-logo article p {text-align: right;}
+.club-logo figure
 .club-logo img { height: 75px; margin: 5px;}
 .club-logo > p { margin: auto; text-align: left; font-size: 14px;}
 
@@ -76,7 +78,7 @@ header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; positio
 
 #nav {padding: 10px 0px 10px 0px; display: flex;  align-items: center; width: 100%; flex-wrap: wrap; }
 #nav.menu {position: relative; display: flex; flex-direction: row; flex-wrap: wrap; width: 50%; justify-content: center; margin: 0 auto; border-bottom: #fff;border-style: solid; border-bottom-width: 1px;}
-#nav li a {position: relative; text-align: left; display: block; box-sizing: border-box; outline:none;}
+#nav li a {position: relative; text-align: left; display: block; box-sizing: border-box; outline:none; box-shadow: none;}
 #nav a {color: white; font-weight: 800; letter-spacing: 2px; text-decoration: none; padding: 20px 20px; display: inline-block; text-align: center; display: flex;}
 #nav ul {display: flex; list-style: none; box-shadow:none;}
 .wrapper.flex-row > img {box-sizing: border-box; height: 100px; position: absolute; margin: auto; left: 0; right: 0; text-align: center;}
