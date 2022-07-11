@@ -33,19 +33,19 @@
 
 }
 
-a {box-shadow: none; outline: none;}
+a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline: none;}
 
-.about-box {width: 30%; position: relative; border: 1px solid lightgray; border-radius: 10px; margin: 20px 0 10px;}
-.about-box hr {height: 1px;border-width: 0;background-color: #d3d3d3;position: relative;width: 100%;}
-.about-box h1 { font-size: 80px; font-weight: 900; position: relative;}
-.about-box h2 { font-size: 15px; font-weight: 900; margin-top: 5px; position: relative; width: 90%; text-align: left;}
-.about-box p {text-align: right;font-size: 15px;margin: auto;}
+
+
+.game-box {width: 30%; position: relative; border: 1px solid lightgray; border-radius: 10px; margin: 20px 0 10px; padding: 25px;}
+.game-box hr {height: 1px;border-width: 0;background-color: #d3d3d3;position: relative;width: 100%;}
+.game-box h1 { font-size: 80px; font-weight: 900; position: relative;}
+.game-box h2 { font-size: 15px; font-weight: 900; margin-top: 5px; position: relative; width: 90%; text-align: left;}
+.game-box p {text-align: right;font-size: 15px;margin: auto;}
+.game-box article a {display: block; width: 50%; position: absolute; right: 25px;}
 
 .about-wrapper {width: 90%;position: relative;background-color: #fffdfc;padding: 20px;height: auto;margin: 0 auto;}
 .about-wrapper hr {height: 2px;border-width: 0;background-color: #d3d3d3;position: relative;width: 30%;margin-right: 80%;}
-
-.game-box {position: relative; width: 100%; padding: 25px;}
-.game-box article a {display: block; text-align: right;}
 
 .club-logo { width: 100%; position: relative; justify-content: space-between; display: flex; margin: auto;}
 .club-logo article p {text-align: right;}
