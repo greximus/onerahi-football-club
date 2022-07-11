@@ -33,7 +33,9 @@
 
 }
 
-.about-box {width: 30%; position: relative;text-align: center;display: inline-flex;border: 1px solid lightgray; border-radius: 10px;}
+a {box-shadow: none; outline: none;}
+
+.about-box {width: 30%; position: relative; border: 1px solid lightgray; border-radius: 10px; margin: 20px 0 10px;}
 .about-box hr {height: 1px;border-width: 0;background-color: #d3d3d3;position: relative;width: 100%;}
 .about-box h1 { font-size: 80px; font-weight: 900; position: relative;}
 .about-box h2 { font-size: 15px; font-weight: 900; margin-top: 5px; position: relative; width: 90%; text-align: left;}
@@ -43,6 +45,7 @@
 .about-wrapper hr {height: 2px;border-width: 0;background-color: #d3d3d3;position: relative;width: 30%;margin-right: 80%;}
 
 .game-box {position: relative; width: 100%; padding: 25px;}
+.game-box article a {display: block; text-align: right;}
 
 .club-logo { width: 100%; position: relative; justify-content: space-between; display: flex; margin: auto;}
 .club-logo article p {text-align: right;}
@@ -64,7 +67,7 @@
 header {position: absolute; width: 100%; display: block; z-index: 999;}
 header .wrapper.flex-row {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
 header .wrapper.flex-row > a > img {width: 60px; position: absolute; top: 5px;}
-header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; position: absolute; top: 5px;}
+header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; position: absolute; top: 5px; box-shadow: none;}
 
 .hamburger {display: none;width: 50px; height: 30px; position: fixed; cursor: pointer; right: 20px; top: 20px; transition: 0.3s; z-index: 9999;}
 .hamburger span {height: 2px; background: #fff; width: 100%; position: absolute; opacity: 1; transition: 0.3s;}
