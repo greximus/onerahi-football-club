@@ -22,6 +22,13 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     create: true
+      fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: image, label: Image, widget: image }
+      - { name: body, label: Body, widget: markdown }
     files:
       - file: "site/content/_index.md"
         label: "Home Page"
