@@ -33,19 +33,24 @@
 
 }
 
-.about-box {width: 20%;height: 70%;position: relative;text-align: center;display: inline-flex;border-color: lightgray;border-width: 1px;border-style: solid;border-radius: 10px;margin-top: 10px;margin-right: 25px;}
-.about-box hr {height: 1px;border-width: 0;background-color: #d3d3d3;position: relative;width: 100%;}
-.about-box h1 { font-size: 80px; font-weight: 900; position: relative;}
-.about-box h2 { font-size: 15px; font-weight: 900; margin-top: 5px; position: relative; width: 90%; text-align: left;}
-.about-box p {text-align: right;font-size: 15px;margin: auto;}
+a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline: none;}
+
+
+
+.game-box {width: 30%; position: relative; border: 1px solid lightgray; border-radius: 10px; margin: 20px 0 10px; padding: 25px;}
+.game-box hr {height: 1px;border-width: 0;background-color: #d3d3d3;position: relative;width: 100%;}
+.game-box h1 { font-size: 80px; font-weight: 900; position: relative;}
+.game-box h2 { font-size: 15px; font-weight: 900; margin-top: 5px; position: relative; width: 90%; text-align: left;}
+.game-box p {text-align: right;font-size: 15px;margin: auto;}
+.game-box article a {display: block; text-decoration: none; position: relative; text-align: right;}
 
 .about-wrapper {width: 90%;position: relative;background-color: #fffdfc;padding: 20px;height: auto;margin: 0 auto;}
 .about-wrapper hr {height: 2px;border-width: 0;background-color: #d3d3d3;position: relative;width: 30%;margin-right: 80%;}
 
-.game-box {position: relative;height: 100%;width: 100%;padding: 10px 10px;}
-
-.club-logo { width: auto; position: relative; justify-content: left; display: flex; margin: auto;}
-.club-logo img { height: 75px; margin: 5px;}
+.club-logo { width: 100%; position: relative; justify-content: space-between; display: flex; margin: auto;}
+.club-logo article p {text-align: right;}
+.club-logo figure {width: 50%; display: flex;}
+.club-logo figure img { height: 75px;}
 .club-logo > p { margin: auto; text-align: left; font-size: 14px;}
 
 .club-info {width: auto;max-width: 100%;position: relative;}
@@ -62,7 +67,7 @@
 header {position: absolute; width: 100%; display: block; z-index: 999;}
 header .wrapper.flex-row {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
 header .wrapper.flex-row > a > img {width: 60px; position: absolute; top: 5px;}
-header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; position: absolute; top: 5px;}
+header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; position: absolute; top: 5px; box-shadow: none;}
 
 .hamburger {display: none;width: 50px; height: 30px; position: fixed; cursor: pointer; right: 20px; top: 20px; transition: 0.3s; z-index: 9999;}
 .hamburger span {height: 2px; background: #fff; width: 100%; position: absolute; opacity: 1; transition: 0.3s;}
@@ -76,9 +81,9 @@ header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; positio
 
 #nav {padding: 10px 0px 10px 0px; display: flex;  align-items: center; width: 100%; flex-wrap: wrap; }
 #nav.menu {position: relative; display: flex; flex-direction: row; flex-wrap: wrap; width: 50%; justify-content: center; margin: 0 auto; border-bottom: #fff;border-style: solid; border-bottom-width: 1px;}
-#nav li a {position: relative; text-align: left; display: block; box-sizing: border-box; outline:none;}
+#nav li a {position: relative; text-align: left; display: block; box-sizing: border-box; outline:none; box-shadow: none;}
 #nav a {color: white; font-weight: 800; letter-spacing: 2px; text-decoration: none; padding: 20px 20px; display: inline-block; text-align: center; display: flex;}
-#nav ul {display: flex; list-style: none; outline:none;}
+#nav ul {display: flex; list-style: none; box-shadow:none;}
 .wrapper.flex-row > img {box-sizing: border-box; height: 100px; position: absolute; margin: auto; left: 0; right: 0; text-align: center;}
 
 .mobile-nav { position: fixed; top: 0; right: 0; left: 0; bottom: 0; text-align: center; background: #004a98; opacity: 0; z-index: -1; visibility: hidden; transition: all .375s;}
