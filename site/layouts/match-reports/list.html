@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" "/img/ofcclubroom.jpg" "title" "Teams" "subtitle" .Params.subtitle ) }}
+
+<div class="mw7 center">
+  <ol class="flex-ns flex-wrap mhn1-ns pa3">
+      {{ range (.Pages.ByParam "order")  }}
+          <div class="w-100-ns ph1-ns flex">
+            {{ .Render "li"}}
+          </div>
+      {{ end }}
+  </ol>
+</div>
+
+{{end}}
