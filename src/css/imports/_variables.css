@@ -50,7 +50,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .club-logo { width: 100%; position: relative; justify-content: space-between; display: flex; margin: auto;}
 .club-logo article p {text-align: right;}
 .club-logo figure {width: 75px; display: inline-block;}
-.club-logo figure img { width: 100%;}
+.club-logo figure img { width: 100%; height: 100%; object-fit: contain;}
 .club-logo > p { margin: auto; text-align: left; font-size: 14px;}
 
 .club-info {width: auto;max-width: 100%;position: relative;}
