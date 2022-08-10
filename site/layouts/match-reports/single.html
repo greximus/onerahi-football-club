@@ -6,25 +6,13 @@
       {{ if .Description }}
       <p>{{ .Description }}</p>
       {{ end }}
-      
+
       {{ if .Params.image }}
       <div class="w-100-ns">
-        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-100-ns" style="max-height: 300px; width: 100%; object-fit: cover;"/>
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="w-100-ns" style="max-height: 500px; width: 100%; object-fit: cover;"/>
       </div>
       {{ end }}
 
-      {{ if .Params.coaches }}
-      <p><strong>Coaches:</strong> {{ .Params.coaches }}</p>
-      {{ end }}
-
-      {{ if .Params.training }}
-      <p><strong>Training times:</strong> {{ .Params.training }}</p>
-      {{ end }}
-      
-      <p>
-        <strong>Contact:</strong> 
-        <a href="mailto:{{ .Params.email }}">{{ .Params.email }}</a>
-      </p>
 
       {{ if .Content }}
       {{ .Content }}
