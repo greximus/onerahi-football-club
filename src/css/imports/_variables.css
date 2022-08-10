@@ -49,8 +49,8 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 .club-logo { width: 100%; position: relative; justify-content: space-between; display: flex; margin: auto;}
 .club-logo article p {text-align: right;}
-.club-logo figure {width: 50%; display: flex;}
-.club-logo figure img { height: 75px;}
+.club-logo figure {width: 75px; display: inline-block;}
+.club-logo figure img { width: 100%;}
 .club-logo > p { margin: auto; text-align: left; font-size: 14px;}
 
 .club-info {width: auto;max-width: 100%;position: relative;}
@@ -80,8 +80,8 @@ header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; positio
 .hamburger.active span:nth-child(3) {bottom: 0; transform: rotate(225deg); top: 15px;}
 
 #nav {padding: 10px 0px 10px 0px; display: flex;  align-items: center; width: 100%; flex-wrap: wrap; }
-#nav.menu {position: relative; display: flex; flex-direction: row; flex-wrap: wrap; width: 50%; justify-content: center; margin: 0 auto; border-bottom: #fff;border-style: solid; border-bottom-width: 1px;}
-#nav li a {position: relative; text-align: left; display: block; box-sizing: border-box; outline:none; box-shadow: none;}
+#nav.menu {position: relative; display: flex; flex-direction: row; flex-wrap: wrap; width: 70%; justify-content: center; margin: 0 auto; border-bottom: #fff;border-style: solid; border-bottom-width: 1px;}
+#nav li a {position: relative; text-align: center; display: block; box-sizing: border-box; outline:none; box-shadow: none;}
 #nav a {color: white; font-weight: 800; letter-spacing: 2px; text-decoration: none; padding: 20px 20px; display: inline-block; text-align: center; display: flex;}
 #nav ul {display: flex; list-style: none; box-shadow:none;}
 .wrapper.flex-row > img {box-sizing: border-box; height: 100px; position: absolute; margin: auto; left: 0; right: 0; text-align: center;}
