@@ -1,10 +1,11 @@
 ---
 title: 6-7 August
+description: Senior Match Reports
 image: img/prems.jpg
 ---
 Another big weekend for Onerahi, with all sides involved in home fixtures crucial to their respective campaigns!
 
-Division 1: Onerahi McKenzie Contracting vs Bream Bay, Sat 6/8, 12.30pm
+**Division 1: Onerahi McKenzie Contracting vs Bream Bay, Sat 6/8, 12.30pm**
 
 Onerahi met Bream Bay at home, with both teams fighting hard in a three-way battle with Kerikeri for the league title.
 
@@ -22,7 +23,7 @@ An important result, which moves Onerahi to the top for now - a single point ahe
 
 FINAL RESULT: 3-1 (W)
 
-Division 3: Onerahi New World vs Madhatters, Sat 6/8, 2.45pm
+**Division 3: Onerahi New World vs Madhatters, Sat 6/8, 2.45pm**
 
 Onerahi continued their title push against the only side to defeat them in the league this year. It was a crucial game for the visitors as well, knowing a win would bring them within 2 points of the home side.
 
@@ -42,7 +43,7 @@ Fin earned a second straight player of the match, with special mention to Pete W
 
 FINAL RESULT: 3-1 (W)
 
-Division 1 Women: Onerahi McKenzie Contracting vs Madhatters Stonehaven, Sun 7/8, 1.00pm
+**Division 1 Women: Onerahi McKenzie Contracting vs Madhatters Stonehaven, Sun 7/8, 1.00pm**
 
 It was another top of the table encounter on Sunday. The visitors arrived in imposing form, with their only dropped points this year being the 4-4 thriller in the previous match up between the same sides.
 
