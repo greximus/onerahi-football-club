@@ -1,11 +1,11 @@
-<a href="{{ .RelPermalink }}" class="no-underline pa2 bg-grey-1 br1 mb2 db raise w-100">
-	<div class="fl-ns w-60-ns">
+<a href="{{ .RelPermalink }}">
+	<article>
 		<strong class="f4 b lh-title mb1 primary">{{ .Title }}</strong>
 		<p class="mb0">{{ .Description }}</p>
 		<p class="link b dib black mb0">Read more →</p>
-	</div>
+	</article>
 
-	<div class="w-40-ns fr-ns">
-		<img src="{{ .Params.Image }}" class="fr-ns" style="height: 250px; width: 100%; object-fit: cover;"></img>
-	</div>
+	<figure>
+		<img src="{{ .Params.Image }}" style="height: 300px; width: 100%; object-fit: cover;"></img>
+	</figure>
 </a>

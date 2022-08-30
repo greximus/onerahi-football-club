@@ -63,6 +63,11 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 .mobile-banner {display: none; position: relative; width: 100%; height: 50vh;}
 
+.match-report-container {display: flex; justify-content: space-around; width: 100%; flex-wrap: wrap;}
+
+.match-report-card {width: 47%; margin: 20px 0; border-radius: 20px; overflow: hidden; padding: 20px;}
+.match-report-card article {width: 50%;}
+
 /*Header*/
 header {position: absolute; width: 100%; display: block; z-index: 999;}
 header .wrapper.flex-row {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}

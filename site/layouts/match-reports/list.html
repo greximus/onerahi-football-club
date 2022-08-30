@@ -2,10 +2,10 @@
 
 {{ partial "jumbotron" (dict "imageUrl" "/img/match-reports.jpg" "title" "Match Reports" "subtitle" .Params.subtitle ) }}
 
-<div class="mw7 center">
-  <ol class="flex-ns flex-wrap mhn1-ns pa3">
+<div class="wrapper">
+  <ol class="match-report-container">
       {{ range (.Pages.ByParam "order")  }}
-          <div class="w-100-ns ph1-ns flex">
+          <div class="match-report-card">
             {{ .Render "li"}}
           </div>
       {{ end }}
