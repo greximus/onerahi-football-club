@@ -99,9 +99,12 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .report-feature > .left-section figure {height: 600px;}
 .report-feature > .left-section figure img {width: 100%; height: 100%; object-fit: cover;}
 .report-feature > .right-section {width: 40%;}
+.report-feature > .right-section article {padding: 25px;}
 .report-feature > .right-section article.heading p {font-size: 12px; font-weight: 600;}
 .report-feature > .right-section article.heading h6 {font-size: 25px;}
 .report-feature > .right-section article.body {font-size: 14px;}
+.score-box-reports {display: flex;}
+.score-box-reports img {max-width: 50px;}
 
 /*Header*/
 header {position: absolute; width: 100%; display: block; z-index: 999;}
