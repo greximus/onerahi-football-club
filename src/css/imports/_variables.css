@@ -37,7 +37,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 
 
-.game-box {width: 30%; position: relative; border: 1px solid lightgray; border-radius: 10px; margin: 20px 0 10px; padding: 25px;}
+.game-box {width: 100%; position: relative; border: 1px solid lightgray; border-radius: 10px; margin: 20px 0 10px; padding: 25px;}
 .game-box hr {height: 1px;border-width: 0;background-color: #d3d3d3;position: relative;width: 100%;}
 .game-box h1 { font-size: 80px; font-weight: 900; position: relative;}
 .game-box h2 { font-size: 15px; font-weight: 900; margin-top: 5px; position: relative; width: 90%; text-align: left;}
