@@ -61,7 +61,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 .score-box { width: 100%; display: flex; justify-content: space-between;}
 
-.scoreSwiper { width: 30%; margin: 0;}
+.scoreSwiper { width: 30%; margin: 0!important;}
 
 .wrapper {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
 
@@ -74,19 +74,20 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .match-report-card article {width: 50%;padding: 20px;}
 .match-report-card figure {width: 50%;}
 
-.nav-row {display: flex; justify-content: space-between;}
+.nav-row {display: flex; justify-content: space-between; margin-top: 20px;}
 
 .custom-navigation {position: relative; width: 25%; display: inline-block;}
 .swiper-button-next::after, .swiper-button-prev::after {font-size: 30px!important; color: #004a98!important;}
 
-.past-games-table {width: 20%; display: flex; position: relative; border: 1px solid lightgray; margin: 20px 0 10px; padding: 25px; flex-wrap: wrap;  background: var(--off-white);}
+.past-games-table {width: 20%; display: flex; position: relative; border: 1px solid lightgray; padding: 25px; flex-wrap: wrap;  background: var(--off-white);}
 .past-games-row {width: 100%; display: flex; justify-content: space-between;}
-.past-games-row h4 {font-weight: 900; color: #000;}
-.past-games-row h5 {font-weight: 900; color: #d3d3d3;}
-.past-games-row figure {width: 20px;}
+.past-games-row h4 {font-weight: 900; color: #000; width: 20%;}
+.past-games-row h5 {font-weight: 900; color: #d3d3d3; width: 20%;}
+.past-games-row figure {width: 20%;}
 
-.sponsor-row {width: 30%; display: flex; justify-content: space-around;  background: var(--off-white);}
+.sponsor-row {width: 30%; display: flex; justify-content: space-around; background: var(--off-white); flex-wrap: wrap;height: 150px;margin-top: 100px;}
 .sponsor-row figure {width: 100px;}
+.sponsor-row figure img {mix-blend-mode: multiply;}
 .sponsor-row article {text-align: center;}
 
 /*Header*/
