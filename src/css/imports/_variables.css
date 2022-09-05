@@ -106,6 +106,10 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .score-box-reports {display: flex;}
 .score-box-reports img {max-width: 50px;}
 
+.bottom-photos {display: flex;}
+.bottom-photos {width: 200px;}
+.bottom-photos img {width: 100%; height: 100%; object-fit: cover;}
+
 /*Header*/
 header {position: absolute; width: 100%; display: block; z-index: 999;}
 header .wrapper.flex-row {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
