@@ -103,11 +103,11 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .report-feature > .right-section article.heading p {font-size: 12px; font-weight: 600;}
 .report-feature > .right-section article.heading h6 {font-size: 25px;}
 .report-feature > .right-section article.body {font-size: 14px;}
-.score-box-reports {display: flex;}
-.score-box-reports img {max-width: 50px;}
+.score-box-reports {display: flex; position: absolute;bottom: 25px;width: 25%;padding: 25px;background: var(--off-white);}
+.score-box-reports img {height: 75px;}
 
 .bottom-photos {display: flex;}
-.bottom-photos {width: 200px;}
+.bottom-photos {height: 200px; width: auto;}
 .bottom-photos img {width: 100%; height: 100%; object-fit: cover;}
 
 /*Header*/
