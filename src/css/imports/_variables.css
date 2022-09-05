@@ -43,6 +43,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .game-box h2 { font-size: 15px; font-weight: 900; margin-top: 5px; position: relative; width: 90%; text-align: left; text-transform: uppercase; line-height: 1;}
 .game-box h3 {line-height: 1; text-align: center;}
 .game-box p {text-align: right;font-size: 15px;margin: auto;}
+.game-box article {display: inline-block; position: relative; width: 25%;}
 .game-box article a {display: block; text-decoration: none; position: relative; text-align: right;}
 
 .about-wrapper {width: 90%;position: relative;background-color: #fffdfc;padding: 20px;height: auto;margin: 0 auto;}
@@ -58,7 +59,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 .score-box { width: 100%; display: flex; justify-content: space-between;}
 
-.score-wrapper { width: 30%;}
+.scoreSwiper { width: 30%;}
 
 .wrapper {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
 
@@ -71,7 +72,9 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .match-report-card article {width: 50%;padding: 20px;}
 .match-report-card figure {width: 50%;}
 
-.custom-navigation {position: relative; width: 25%;}
+.nav-row {display: flex; justify-content: space-between;}
+
+.custom-navigation {position: relative; width: 25%; display: inline-block;}
 .swiper-button-next::after, .swiper-button-prev::after {font-size: 30px!important; color: #004a98!important;}
 
 
