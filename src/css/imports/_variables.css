@@ -56,7 +56,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 .club-info {width: auto;max-width: 100%;position: relative;}
 
-.score-box { width: 100%; display: flex;}
+.score-box { width: 100%; display: flex; justify-content: space-between;}
 
 .score-wrapper { width: 30%;}
 
@@ -72,7 +72,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .match-report-card figure {width: 50%;}
 
 .custom-navigation {position: relative; width: 25%;}
-.swiper-button-next::after, .swiper-button-prev::after {font-size: 30px!important; background: #004a98!important;}
+.swiper-button-next::after, .swiper-button-prev::after {font-size: 30px!important; color: #004a98!important;}
 
 
 /*Header*/
