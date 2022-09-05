@@ -37,19 +37,19 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 
 
-.game-box {width: 100%; position: relative; border: 1px solid lightgray; margin: 20px 0 10px; padding: 25px;}
+.game-box {width: 100%; position: relative; border: 1px solid lightgray; padding: 25px; background: var(--off-white);}
 .game-box hr {height: 1px;border-width: 0;background-color: #d3d3d3;position: relative;width: 100%;}
 .game-box h1 { font-size: 80px; font-weight: 900; position: relative;}
-.game-box h2 { font-size: 15px; font-weight: 900; margin-top: 5px; position: relative; width: 90%; text-align: left; text-transform: uppercase; line-height: 1;}
+.game-box h2 { font-size: 15px; font-weight: 900; margin: 5px 0; position: relative; width: 95%; text-align: left; text-transform: uppercase; line-height: 1;}
 .game-box h3 {line-height: 1; text-align: center;}
 .game-box p {text-align: right;font-size: 15px;margin: auto;}
-.game-box article {display: inline-block; position: relative; width: 25%;}
+.game-box article {display: inline-block; position: relative; width: 55%;}
 .game-box article a {display: block; text-decoration: none; position: relative; text-align: right;}
 
 .about-wrapper {width: 90%;position: relative;background-color: #fffdfc;padding: 20px;height: auto;margin: 0 auto;}
 .about-wrapper hr {height: 2px;border-width: 0;background-color: #d3d3d3;position: relative;width: 30%;margin-right: 80%;}
 
-.results-wrapper {display: flex; justify-content: space-between; flex-direction: row;}
+.results-wrapper {display: flex; justify-content: space-between; flex-direction: row; margin: -100px 0 50px;}
 
 .club-logo { width: 100%; position: relative; justify-content: space-between; display: flex; margin: auto;}
 .club-logo article p {text-align: right;}
@@ -61,7 +61,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 .score-box { width: 100%; display: flex; justify-content: space-between;}
 
-.scoreSwiper { width: 30%;}
+.scoreSwiper { width: 30%; margin: 0;}
 
 .wrapper {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
 
@@ -79,13 +79,13 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .custom-navigation {position: relative; width: 25%; display: inline-block;}
 .swiper-button-next::after, .swiper-button-prev::after {font-size: 30px!important; color: #004a98!important;}
 
-.past-games-table {width: 20%; display: flex; position: relative; border: 1px solid lightgray; margin: 20px 0 10px; padding: 25px; flex-wrap: wrap;}
+.past-games-table {width: 20%; display: flex; position: relative; border: 1px solid lightgray; margin: 20px 0 10px; padding: 25px; flex-wrap: wrap;  background: var(--off-white);}
 .past-games-row {width: 100%; display: flex; justify-content: space-between;}
 .past-games-row h4 {font-weight: 900; color: #000;}
 .past-games-row h5 {font-weight: 900; color: #d3d3d3;}
 .past-games-row figure {width: 20px;}
 
-.sponsor-row {width: 30%; display: flex; justify-content: space-around;}
+.sponsor-row {width: 30%; display: flex; justify-content: space-around;  background: var(--off-white);}
 .sponsor-row figure {width: 100px;}
 .sponsor-row article {text-align: center;}
 
