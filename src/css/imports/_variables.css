@@ -166,4 +166,5 @@ h1,h2,h3,h4,h5 {
 	.about-wrapper {width: 100%;}
 	#banner {height: 40vh;}
 	.results-wrapper{flex-direction: column;}
+	.scoreSwiper,.past-games-table,.sponsor-row {width: 100%; margin: 10px 0;}
 }
