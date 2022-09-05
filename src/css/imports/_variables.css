@@ -57,7 +57,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 .score-box { width: 100%; display: flex;}
 
-.score-wrapper { width: 100%; display: flex; justify-content: space-between;}
+.score-wrapper { width: 30%;}
 
 .wrapper {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
 
