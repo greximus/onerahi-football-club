@@ -36,6 +36,7 @@
 a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline: none;}
 
 
+.db h1 {text-transform: uppercase;font-weight: 700;display: block;width: 100%;max-width: none;text-align: center;}
 
 .game-box {width: 100%; position: relative; border: 1px solid lightgray; padding: 25px; background: var(--off-white);}
 .game-box hr {height: 1px;border-width: 0;background-color: #d3d3d3;position: relative;width: 100%;}
@@ -67,9 +68,9 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 .mobile-banner {display: none; position: relative; width: 100%; height: 50vh;}
 
-.match-report-container {display: flex; justify-content: space-around; width: 100%; flex-wrap: wrap;}
+.match-report-container {display: flex; justify-content: flex-start; width: 100%; flex-wrap: wrap; padding: 50px 0;}
 
-.match-report-card {width: 47%; margin: 20px 0; border-radius: 20px; overflow: hidden; background: #f5f3f2;}
+.match-report-card {width: 47%; margin: 10px 20px;; border-radius: 20px; overflow: hidden; background: #f5f3f2;}
 .match-report-card a {display: flex; text-decoration: none;}
 .match-report-card article {width: 50%;padding: 20px;}
 .match-report-card figure {width: 50%;}
@@ -200,4 +201,6 @@ h1,h2,h3,h4,h5 {
 	.report-feature > .left-section .score-box-reports {width: 100%;}
 	.bottom-photos {width: 100%;}
 	.report-feature > .right-section article {padding: 50px 0;}
+	.match-report-card {width: 100%; flex-direction: column;}
+	.match-report-card article,.match-report-card figure {width: 100%;}
 }
