@@ -74,7 +74,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .match-report-card article {width: 50%;padding: 20px;}
 .match-report-card figure {width: 50%;}
 
-.nav-row {display: flex; justify-content: space-between; margin-top: 20px;}
+.nav-row {display: flex; justify-content: space-between; margin-top: 40px;}
 
 .custom-navigation {position: relative; width: 25%; display: inline-block;}
 .swiper-button-next::after, .swiper-button-prev::after {font-size: 30px!important; color: #004a98!important;}
@@ -111,7 +111,9 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .report-feature > .left-section .score-box-reports img {height: 75px;width: auto;}
 
 .bottom-photos {display: flex; margin-top: 100px; height: 200px; width: auto; width: 60%;}
-.bottom-photos img {width: 100%; height: 100%; object-fit: cover; margin: 0 5px;}
+.bottom-photos img {width: 50%; height: 100%; object-fit: cover; margin: 0 5px;}
+
+#content {top: 120px;box-shadow: 0 2px 20px rgba(0,0,0,0.09);border-radius: 5px;background: #fff;position: relative;margin-bottom: 200px;}
 
 /*Header*/
 header {position: absolute; width: 100%; display: block; z-index: 999;}
