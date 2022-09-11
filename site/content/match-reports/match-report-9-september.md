@@ -1,5 +1,5 @@
 ---
-title: Match Report 9 September
+title: 9 September
 image: img/img_4274.jpg
 ---
 Stafford Choat Bowl FINAL: Mangawhai FC (NM2) vs Onerahi New World (NM3) ; Sat 10 September, 1.00pm
