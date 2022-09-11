@@ -1,5 +1,5 @@
 ---
-title: 6-7 August
+title: 6/7 August
 description: Senior Match Reports
 image: img/prems.jpg
 ---
