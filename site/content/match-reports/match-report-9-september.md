@@ -32,8 +32,6 @@ The team would also like to extend a huge thank you to the wider squad who have 
 
 Special mention to the coaching team of Dave Fisher, Mack McNamara, and manager Matt Pyle for building such a great culture within the squad ; Matty I know you were following intently on social from the UK!
 
-So a League and Cup double ; each being a first for many of the squad.
+So a League and Cup double; each being a first for many of the squad.
 
-Congratulations
-
-on a fantastic achievement this season guys - thoroughly deserved!! ![🏆](https://static.xx.fbcdn.net/images/emoji.php/v9/tbe/1/16/1f3c6.png)![🥇](https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f947.png)![🏆](https://static.xx.fbcdn.net/images/emoji.php/v9/tbe/1/16/1f3c6.png)![🥇](https://static.xx.fbcdn.net/images/emoji.php/v9/t94/1/16/1f947.png)
+Congratulations on a fantastic achievement this season guys - thoroughly deserved!!
