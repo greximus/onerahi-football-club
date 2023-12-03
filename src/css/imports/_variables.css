@@ -117,11 +117,11 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 #content {top: 120px;box-shadow: 0 2px 20px rgba(0,0,0,0.09);border-radius: 5px;background: #fff;position: relative;margin-bottom: 200px;}
 
 /*Header*/
-header {position: sticky; width: 100%; display: block; z-index: 999; top: 0px;}
+header {position: sticky; width: 100%; display: block; z-index: 999; top: 0px; background: #fff;}
 header .wrapper.flex-row {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
-header .wrapper.flex-row > a > img {width: 60px; position: absolute;}
 header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; position: absolute; top: 5px; box-shadow: none; top: 50%;
 	transform: translateY(-50%);}
+header .wrapper.flex-row > a > img {width: 100%; position: relative; object-fit: contain;}	
 
 .hamburger {display: none;width: 50px; height: 30px; position: fixed; cursor: pointer; right: 20px; top: 20px; transition: 0.3s; z-index: 9999;}
 .hamburger span {height: 2px; background: #fff; width: 100%; position: absolute; opacity: 1; transition: 0.3s;}
@@ -196,6 +196,7 @@ h1,h2,h3,h4,h5 {
 
 
 @media screen and (max-width: 900px) {
+	header .wrapper.flex-row > a {transform: none; top: 5px;}
 	.about-wrapper {width: 100%;}
 	#banner {height: 40vh;}
 	.results-wrapper {flex-direction: column; margin: 0;}

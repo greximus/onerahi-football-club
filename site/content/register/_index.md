@@ -16,3 +16,5 @@ If you are registering multiple players from the same family then choose "Additi
 5. Pay by internet banking to bank account **ASB 12-3092-0107633-00**. Using the player name as reference 
 
 **Note**: If you are a Northland FC player but are registering through Onerahi that you should select the NFC type. 
+
+<script src="https://onerahifootball.friendlymanager.com/js/loadform/register.js"></script>
