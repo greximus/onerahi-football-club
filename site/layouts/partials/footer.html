@@ -36,4 +36,18 @@
 
 </footer>
 
+<script type="text/javascript">
+    var header = $("header");
+    var scrollChange =20;
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= scrollChange) {
+            header.addClass('sticky');
+        } else {
+            header.removeClass("sticky");
+        }
+    });
+  </script>
+
 {{ partial "svg" . }}
