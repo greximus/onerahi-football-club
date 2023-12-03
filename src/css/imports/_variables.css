@@ -47,7 +47,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .game-box article {display: inline-block; position: relative; width: 55%;}
 .game-box article a {display: block; text-decoration: none; position: relative; text-align: right;}
 
-.about-wrapper {width: 90%;position: relative;background-color: #fffdfc;padding: 20px;height: auto;margin: 0 auto;}
+.about-wrapper {width: 90%; position: relative; background-color: #fffdfc; padding: 50px 0; height: auto; margin: 0 auto; display: flex; align-items: center;}
 .about-wrapper hr {height: 2px;border-width: 0;background-color: #d3d3d3;position: relative;width: 30%;margin-right: 70%;}
 
 .results-wrapper {display: flex; justify-content: space-between; flex-direction: row; margin: -100px 0 50px;}
@@ -58,7 +58,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .club-logo figure img { width: 100%; height: 100%; object-fit: contain;}
 .club-logo > p { margin: auto; text-align: left; font-size: 14px;}
 
-.club-info {width: auto;max-width: 100%;position: relative;}
+.club-info {width: auto;max-width: 70%;position: relative;}
 
 .score-box { width: 100%; display: flex; justify-content: space-between;}
 
@@ -88,7 +88,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .past-games-row figure {width: 20%; position: relative; height: 40px;}
 .past-games-row figure img {height: 100%; position: absolute; left: 50%; transform: translateX(-50%);}
 
-.sponsor-row {width: 30%; display: flex; justify-content: space-around; background: var(--off-white); flex-wrap: wrap;height: 150px;margin-top: 120px;}
+.sponsor-row { width: 30%; display: flex;justify-content: space-around; background: var(--off-white); flex-wrap: wrap; height: 150px;}
 .sponsor-row figure {width: 100px;}
 .sponsor-row figure img {mix-blend-mode: multiply;}
 .sponsor-row article {text-align: center; width: 100%;}
@@ -118,13 +118,13 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 /*Header*/
 header {position: sticky; width: 100%; display: block; z-index: 999; top: 0px; background: #fff; transform: 0.5s; box-sizing: border-box; border-bottom: 2px solid #fff;;}
-header .wrapper.flex-row {max-width: 90%; position: relative; top: 0px; margin: 0 auto;}
+header .wrapper.flex-row {max-width: 90%; position: relative; margin: 0 auto;}
 header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; position: absolute; top: 5px; box-shadow: none; top: 50%;
 	transform: translateY(-50%);}
 header .wrapper.flex-row > a > img {width: 100%; position: relative; object-fit: contain;}	
 header.sticky {border-bottom: 2px solid #1a348f;}
 
-.hamburger {display: none;width: 50px; height: 30px; position: fixed; cursor: pointer; right: 20px; top: 20px; transition: 0.3s; z-index: 9999;}
+.hamburger {display: none;width: 50px; height: 30px; position: relative; cursor: pointer; transition: 0.3s; z-index: 9999;}
 .hamburger span {height: 2px; background: #fff; width: 100%; position: absolute; opacity: 1; transition: 0.3s;}
 .hamburger span:nth-child(1) {top: 0;}
 .hamburger span:nth-child(2) {top: 15px;}
@@ -203,7 +203,8 @@ h1,h2,h3,h4,h5 {
 
 @media screen and (max-width: 900px) {
 	header .wrapper.flex-row > a {transform: none; top: 5px;}
-	.about-wrapper {width: 100%;}
+	.about-wrapper {width: 100%; flex-direction: column;}
+	.club-info {max-width: 85%;}
 	#banner {height: 40vh;}
 	.results-wrapper {flex-direction: column; margin: 0;}
 	.scoreSwiper,.past-games-table,.sponsor-row {width: 100%; margin: 10px 0;}
