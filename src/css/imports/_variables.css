@@ -120,7 +120,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 header {position: sticky; width: 100%; display: block; z-index: 999; top: 0px; background: #fff; transform: 0.5s; box-sizing: border-box; border-bottom: 2px solid #fff;;}
 header .wrapper.flex-row {max-width: 90%; position: relative; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;}
 header .wrapper.flex-row > a {width: 60px; height: 80px; display: block; position: absolute; top: 5px; box-shadow: none; top: 50%; transform: translateY(-50%);}
-header .wrapper.flex-row > a > img {width: 100%; position: relative; object-fit: contain;}	
+header .wrapper.flex-row > a > img {width: 100%; position: relative; object-fit: contain; height: 100%;}	
 header.sticky {border-bottom: 2px solid #1a348f;}
 
 .hamburger {display: none;width: 50px; height: 30px; position: relative; cursor: pointer; transition: 0.3s; z-index: 9999;}
