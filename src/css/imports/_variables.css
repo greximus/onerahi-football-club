@@ -70,10 +70,10 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 .match-report-container {display: flex; justify-content: flex-start; width: 100%; flex-wrap: wrap; padding: 50px 0;}
 
-.match-report-card {width: 47%; margin: 10px 20px;; border-radius: 20px; overflow: hidden; background: #f5f3f2;}
-.match-report-card a {display: flex; text-decoration: none;}
-.match-report-card article {width: 50%;padding: 20px;}
-.match-report-card figure {width: 50%;}
+.match-report-card {border-radius: 20px; overflow: hidden; background: #f5f3f2;}
+.match-report-card a {display: flex; flex-direction: column-reverse; text-decoration: none;}
+.match-report-card article {width: 100%;padding: 20px;}
+.match-report-card figure {width: 100%;}
 
 .nav-row {display: flex; justify-content: space-between; margin-top: 40px;}
 
@@ -171,6 +171,8 @@ header.sticky {border-bottom: 2px solid #1a348f;}
 .team-image {height: 200px; width: 100%;}
 .team-image img {width: 100%; height: 100%; object-fit: cover;}
 .team-text {box-sizing: border-box; padding: 20px;}
+
+.match-report-container {display: grid; grid-template-columns: repeat(4,1fr); grid-gap: 25px;}
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
