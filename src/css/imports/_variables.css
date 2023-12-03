@@ -36,6 +36,7 @@
 a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline: none;}
 
 
+.db h1 {text-transform: uppercase;font-weight: 700;display: block;width: 100%;max-width: none;text-align: center;}
 
 .game-box {width: 100%; position: relative; border: 1px solid lightgray; padding: 25px; background: var(--off-white);}
 .game-box hr {height: 1px;border-width: 0;background-color: #d3d3d3;position: relative;width: 100%;}
@@ -67,14 +68,14 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 .mobile-banner {display: none; position: relative; width: 100%; height: 50vh;}
 
-.match-report-container {display: flex; justify-content: space-around; width: 100%; flex-wrap: wrap;}
+.match-report-container {display: flex; justify-content: flex-start; width: 100%; flex-wrap: wrap; padding: 50px 0;}
 
-.match-report-card {width: 47%; margin: 20px 0; border-radius: 20px; overflow: hidden; background: #f5f3f2;}
+.match-report-card {width: 47%; margin: 10px 20px;; border-radius: 20px; overflow: hidden; background: #f5f3f2;}
 .match-report-card a {display: flex; text-decoration: none;}
 .match-report-card article {width: 50%;padding: 20px;}
 .match-report-card figure {width: 50%;}
 
-.nav-row {display: flex; justify-content: space-between; margin-top: 20px;}
+.nav-row {display: flex; justify-content: space-between; margin-top: 40px;}
 
 .custom-navigation {position: relative; width: 25%; display: inline-block;}
 .swiper-button-next::after, .swiper-button-prev::after {font-size: 30px!important; color: #004a98!important;}
@@ -84,14 +85,36 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .past-games-row h4 {font-weight: 900; color: #000; width: 20%; margin: auto;}
 .past-games-row h4:last-child {text-align: right;}
 .past-games-row h5 {font-weight: 900; color: #d3d3d3; width: 20%; text-align: center; margin: auto;}
-.past-games-row figure {width: 20%; position: relative;}
-.past-games-row figure img {height: 40px; position: absolute; left: 50%; transform: translateX(-50%);}
+.past-games-row figure {width: 20%; position: relative; height: 40px;}
+.past-games-row figure img {height: 100%; position: absolute; left: 50%; transform: translateX(-50%);}
 
 .sponsor-row {width: 30%; display: flex; justify-content: space-around; background: var(--off-white); flex-wrap: wrap;height: 150px;margin-top: 120px;}
 .sponsor-row figure {width: 100px;}
 .sponsor-row figure img {mix-blend-mode: multiply;}
 .sponsor-row article {text-align: center; width: 100%;}
 .sponsor-row article p {margin-bottom: 0px;}
+
+.reports-section {padding: 50px 0;}
+.report-feature {display: flex; flex-direction: row;}
+.report-feature > .left-section {width: 60%;}
+.report-feature > .left-section figure {height: 600px; position: relative;}
+.report-feature > .left-section figure img {width: 100%; height: 100%; object-fit: cover;}
+.report-feature > .right-section {width: 40%;}
+.report-feature > .right-section article {padding: 0 50px 50px 50px;}
+.report-feature > .right-section article.heading {margin: 0 0 0 -200px; background: var(--off-white); position: relative;}
+.report-feature > .right-section article.heading p {font-size: 12px; font-weight: 900;margin-bottom: 0;color: var(--primary);}
+.report-feature > .right-section article.heading h6 {font-size: 50px; font-weight: 600; text-transform: uppercase; line-height: 1;}
+.report-feature > .right-section article.body span {color: var(--grey-3);}
+.report-feature > .right-section article.body {font-size: 14px; padding: 0px 150px 50px;}
+.report-feature > .right-section article.body a {color: var(--grey-3);}
+.report-feature > .left-section .score-box-reports {display: flex; position: absolute;bottom: -55px;width: 45%;padding: 25px;background: var(--off-white); justify-content: space-between;}
+.report-feature > .left-section .score-box-reports p {font-size: 40px; margin: auto; font-weight:500;}
+.report-feature > .left-section .score-box-reports img {height: 75px;width: auto;}
+
+.bottom-photos {display: flex; margin-top: 100px; height: 200px; width: auto; width: 60%;}
+.bottom-photos img {width: 50%; height: 100%; object-fit: cover; margin: 0 5px;}
+
+#content {top: 120px;box-shadow: 0 2px 20px rgba(0,0,0,0.09);border-radius: 5px;background: #fff;position: relative;margin-bottom: 200px;}
 
 /*Header*/
 header {position: absolute; width: 100%; display: block; z-index: 999;}
@@ -159,6 +182,12 @@ h1,h2,h3,h4,h5 {
 	--font-family:  'Montserrat', sans-serif;
 }
 
+@media screen and (max-width: 1400px) {
+	.report-feature > .right-section article {padding: 0 25px 25px;}
+	.report-feature > .right-section article.body {padding: 0 50px 50px;}
+	.report-feature > .left-section .score-box-reports {width: 60%;}
+}
+
 @media screen and (max-width: 1280px) {
   #nav.menu {display: none;}
   .hamburger {display: block;}
@@ -168,6 +197,17 @@ h1,h2,h3,h4,h5 {
 @media screen and (max-width: 900px) {
 	.about-wrapper {width: 100%;}
 	#banner {height: 40vh;}
-	.results-wrapper{flex-direction: column;}
+	.results-wrapper {flex-direction: column; margin: 0;}
 	.scoreSwiper,.past-games-table,.sponsor-row {width: 100%; margin: 10px 0;}
+	.report-feature > .right-section article.heading {margin: 0;}
+	.report-feature {flex-direction: column;}
+	.report-feature > .left-section {width: 100%;}
+	.report-feature > .right-section {width: 100%;}
+	.report-feature > .right-section article.body {padding: 0;}
+	.report-feature > .left-section .score-box-reports {width: 100%;}
+	.bottom-photos {width: 100%;}
+	.report-feature > .right-section article {padding: 50px 0;}
+	.match-report-card {width: 100%; flex-direction: column;}
+	.match-report-card article,.match-report-card figure {width: 100%;}
+
 }

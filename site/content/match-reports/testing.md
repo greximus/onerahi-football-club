@@ -1,5 +1,5 @@
 ---
-title: 30 - 31 July
+title: 30/31 July
 subtitle: ""
 description: Senior Match Reports
 image: img/296670768_499264128673594_2032777398420838503_n.jpg
