@@ -195,12 +195,13 @@ h1,h2,h3,h4,h5 {
 }
 
 @media screen and (max-width: 1280px) {
-  #nav.menu {display: none;}
-  .hamburger {display: block;}
+  
 }
 
 
 @media screen and (max-width: 900px) {
+	#nav.menu {display: none;}
+  .hamburger {display: block;}
 	header .wrapper.flex-row > a {transform: none; top: 0px; position: relative; height: 60px; padding: 10px 0;}
 	.about-wrapper {width: 100%; flex-direction: column;}
 	.club-info {max-width: 85%;}
@@ -217,5 +218,5 @@ h1,h2,h3,h4,h5 {
 	.report-feature > .right-section article {padding: 50px 0;}
 	.match-report-card {width: 100%; flex-direction: column;}
 	.match-report-card article,.match-report-card figure {width: 100%;}
-
+	.team-container {grid-template-columns: 100%;}
 }
