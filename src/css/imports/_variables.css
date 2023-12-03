@@ -220,5 +220,5 @@ h1,h2,h3,h4,h5 {
 	.report-feature > .right-section article {padding: 50px 0;}
 	.match-report-card {width: 100%; flex-direction: column;}
 	.match-report-card article,.match-report-card figure {width: 100%;}
-	.team-container {grid-template-columns: 100%;}
+	.team-container, .match-report-container {grid-template-columns: 100%;}
 }
