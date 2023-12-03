@@ -169,7 +169,7 @@ header.sticky {border-bottom: 2px solid #1a348f;}
 
 .team-container {display: grid; grid-template-columns: repeat(3,1fr); grid-gap: 25px;;}
 .team-container a {display: flex; flex-direction: column; padding: 0; margin: 0;}
-.team-image {height: 250px; width: 100%;}
+.team-image {height: 200px; width: 100%;}
 .team-image img {width: 100%; height: 100%; object-fit: cover;}
 .team-text {box-sizing: border-box; padding: 20px;}
 
