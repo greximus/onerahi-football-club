@@ -3,7 +3,7 @@
 {{ partial "jumbotron" (dict "imageUrl" "/img/P1290290.JPG" "title" "Teams" "subtitle" .Params.subtitle ) }}
 
 <div class="mw7 center">
-  <ol class="flex-ns flex-wrap mhn1-ns pa3">
+  <ol class="flex-ns flex-wrap mhn1-ns pa3 team-container">
       {{ range (.Pages.ByParam "order")  }}
           <div class="w-100-ns ph1-ns flex">
             {{ .Render "li"}}

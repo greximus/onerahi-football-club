@@ -166,6 +166,8 @@ header .wrapper.flex-row > a > img {width: 100%; position: relative; object-fit:
 .mobile-nav ul,.mobile-nav li { list-style: none; padding: 0;}
 .mobile-nav a { display: block; padding: 12px 0; color: #004a98; font-size: 1.4em; text-decoration: none; font-weight: bold; outline:none;}
 
+.team-container {display: grid; grid-template-columns: repeat(3,1fr);}
+
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
