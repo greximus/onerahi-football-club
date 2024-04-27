@@ -2,7 +2,7 @@
 title: Fun Football
 description: Football for 6 - 8 year olds
 image: /img/funfootball.jpg
-training: Mondays 4:15pm at Onerahi FC
+training: Thursdays 4:15pm at Onerahi FC
 order: 2
 coaches: Brad Hall & David Badham
 date: 2017-01-04T15:04:10.000Z
