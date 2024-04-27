@@ -2,7 +2,7 @@
 title: First Kicks
 description: "Football for 4 - 6 year olds "
 image: /img/firstkicks.jpg
-training: Mondays 3:30pm at Onerahi FC
+training: Thursdays 3:30pm at Onerahi FC
 order: 1
 coaches: David Badham & Harley Freeman
 date: 2017-01-04T15:04:10.000Z
