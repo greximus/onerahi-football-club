@@ -1,12 +1,10 @@
 ---
-title: 10th Grade Blue
+title: U10 Blue
 subtitle: ""
 image: img/10th grade blue web.jpg
-training: Friday - 4pm at Onerahi FC
+training: Tuesdays from 4.15 to 5.30
 order: 4
 email: onerahifootballclub@outlook.co.nz
-coaches: |-
-  Jon Renes (Coach)
-  Skye Renes (Manager)
+coaches: Matt Guddat / Paula Donald
 ---
 \
