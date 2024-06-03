@@ -1,8 +1,9 @@
 ---
-title: 10th Grade Gold
+title: U10 Yellow
 image: img/teamphoto.jpg
-training: At Onerahi FC
+training: Tuesdays from 4.15 to 5.30
 order: 4
-email: "onerahifootballclub@outlook.co.nz"
-coaches: Steve Jennings & Amy Donelly (Manager)
+email: onerahifootballclub@outlook.co.nz
+coaches: Matt Guddat / Paula Donald
 ---
+\
