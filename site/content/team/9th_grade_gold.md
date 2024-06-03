@@ -1,13 +1,9 @@
 ---
-title: 9th Grade
+title: U9 Yellow
 image: img/teamphoto.jpg
-training: |-
-  Wednesday - 4.30pm
-  at Onerahi FC
+training: Tuesdays from 4.15 to 5.30
 order: 3
 email: onerahifootballclub@outlook.co.nz
-coaches: |-
-  Ross Borman (Coach)
-  Karl Browning (Manager)
+coaches: "Nic Kennedy "
 ---
-Information about out 9th Grade team for 2022
+Information about out 9th Grade team for 2024
