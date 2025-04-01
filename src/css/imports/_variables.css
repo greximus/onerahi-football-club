@@ -48,7 +48,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 .game-box article a {display: block; text-decoration: none; position: relative; text-align: right;}
 
 .about-wrapper {width: 90%; position: relative; background-color: #fffdfc; padding: 50px 0; height: auto; margin: 0 auto; display: flex; align-items: center;}
-.about-wrapper hr {height: 2px;border-width: 0;background-color: #d3d3d3;position: relative;width: 30%;margin-right: 70%;}
+.about-wrapper hr {height: 2px;border-width: 0;background-color: #d3d3d3;position: relative;width: 30%; margin: 10px 70% 10px 0;}
 
 .results-wrapper {display: flex; justify-content: space-between; flex-direction: row; margin: -100px 0 50px;}
 
@@ -90,7 +90,7 @@ a,a:focus, button:focus, input:focus, textarea:focus {box-shadow: none; outline:
 
 .sponsor-row { width: 30%; display: flex;justify-content: space-around; background: var(--off-white); flex-wrap: wrap; height: 150px;}
 .sponsor-row figure {width: 100px;}
-.sponsor-row figure img {mix-blend-mode: multiply;}
+.sponsor-row figure img {mix-blend-mode: multiply; width: auto; height: auto; object-fit: contain;}
 .sponsor-row article {text-align: center; width: 100%;}
 .sponsor-row article p {margin-bottom: 0px;}
 
@@ -168,11 +168,15 @@ header.sticky {}
 
 #banner {height: calc(100dvh - 100px)}
 
-.team-container {display: grid; grid-template-columns: repeat(3,1fr); grid-gap: 25px;;}
+.team-container {display: grid; grid-template-columns: repeat(3,1fr); grid-gap: 30px; margin: 30px 0; padding: 0;}
+.team-container > div {padding: 0;}
 .team-container a {display: flex; flex-direction: column; padding: 0; margin: 0;}
-.team-image {height: 200px; width: 100%;}
-.team-image img {width: 100%; height: 100%; object-fit: cover;}
+.team-image {height: 0; width: 100%; position: relative; padding-bottom: 75%;}
+.team-image img {width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0;}
 .team-text {box-sizing: border-box; padding: 20px;}
+
+form input, form textarea {border: 1px solid #000; line-height: 30px; font-family: inherit; margin-bottom: 15px!important;}
+form > div {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 15px;}
 
 .match-report-container {display: grid; grid-template-columns: repeat(4,1fr); grid-gap: 25px;}
 
