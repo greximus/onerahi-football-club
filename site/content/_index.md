@@ -1,7 +1,7 @@
 ---
 title: " "
 subtitle: " "
-image: img/womensfinal.jpg
+image: img/015a5991.jpg
 blurb:
   heading: WELCOME TO ONERAHI
   text: >-
