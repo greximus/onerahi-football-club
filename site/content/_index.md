@@ -1,7 +1,7 @@
 ---
 title: " "
 subtitle: " "
-image: img/015a5991.jpg
+image: img/staffordchoat.jpg
 blurb:
   heading: WELCOME TO ONERAHI
   text: >-
