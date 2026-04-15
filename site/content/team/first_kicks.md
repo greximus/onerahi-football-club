@@ -2,13 +2,15 @@
 title: First Kicks
 description: "Football for 4 - 7 year olds "
 image: /img/firstkicks.jpg
-training: Thursdays 4:00pm - 4:45pm at Onerahi FC
+training: |-
+  Thursdays 4:00pm - 4:45pm at Onerahi FC
+  Note trainings and game days do not run during the school holidays.
 order: 1
 coaches: Ross Weddle
 date: 2017-01-04T15:04:10.000Z
 email: onerahifootballclub@outlook.co.nz
 ---
-First kicks is a great way to get started playing football. Note trainings and game days do not run during the school holidays. The season begins Saturday 2 May 2026.
+First Kicks is a great way to get started playing football. The season begins Saturday 2 May 2026.
 
 - - -
 
