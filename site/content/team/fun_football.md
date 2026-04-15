@@ -1,27 +1,27 @@
 ---
-order: 2
-coaches: David Badham & Sarah Horton
-date: 2017-01-04T15:04:10.000Z
 title: Fun Football
-description: Football for 6 - 8 year olds
-image: /img/funfootball.jpg
-training: Thursdays 4:15pm at Onerahi FC
+description: Football for 8 - 9 year olds
+image: img/fk-and-ff-2025-group-shot_web.jpg
+training: |-
+  Thursdays 4:00pm - 5:00pm at Onerahi FC
+
+  Note trainings and game days do not run during the school holidays. 
+order: 2
+coaches: Chris Carmichael
+date: 2017-01-04T15:04:10.000Z
 email: onerahifootballclub@outlook.co.nz
 ---
-Fun football is supported by Northland football with their youth players leading the training sessions. 
-Note trainings and game days do not run during the school holidays. The season started on May 4th 2024.
+Fun Football is the next step up from First Kicks, focusing on skill development and working as a team. The group is supported by experienced coaches and Northland football youth players. The season begins Saturday 2 May 2026.
 
 - - -
 
 **Games**
 
-*Time*: Saturday mornings, 9:15am – 10:00am  (be there 15mins before start time) 
+*Time*: Saturday mornings, 10:00am – 11:00am  (be there 15mins before start time)
 
-*Location*: Held at Onerahi FC.
+*Location*: Held at Onerahi FC and Tikipunga FC
 
-*Teams*: 3 or 4 players per team, teams are picked on the day
-
-*Awards*: Trophies are awarded at the end of play, please bring them back each Saturday :) 
+*Teams*: 5 players per team
 
 **Gear**
 
