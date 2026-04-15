@@ -1,5 +1,5 @@
 ---
-title: U10
+title: U10 Raptors
 subtitle: ""
 image: img/10th grade blue web.jpg
 training: Thursdays 4:00pm - 6:00pm
