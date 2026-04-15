@@ -1,6 +1,6 @@
 ---
 title: First Kicks
-description: "Football for 4 - 6 year olds "
+description: "Football for 4 - 7 year olds "
 image: /img/firstkicks.jpg
 training: Thursdays 4:00pm - 4:45pm at Onerahi FC
 order: 1
