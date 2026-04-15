@@ -3,7 +3,7 @@ title: First Kicks
 description: "Football for 4 - 7 year olds "
 image: /img/firstkicks.jpg
 training: |-
-  Thursdays 4:00pm - 4:45pm at Onerahi FC
+  Thursdays 4:00pm - 4:45pm at Onerahi FC.
   Note trainings and game days do not run during the school holidays.
 order: 1
 coaches: Ross Weddle
